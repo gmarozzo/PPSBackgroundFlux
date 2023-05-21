@@ -1,0 +1,7 @@
+*.*~
+*.*#
+*.d
+*.root
+*.pem
+
+PPSBackgroundFlux/bin/plots/
