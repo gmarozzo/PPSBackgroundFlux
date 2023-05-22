@@ -1,2 +1,7 @@
-for i in range(1,128):
+import os
+import sys
+
+runlist = open("allruns.txt","r")
+  os.system("")    
+for line in runlist:
   
