@@ -68,24 +68,13 @@ int main(int argc, char* argv[]) {
   std::vector<std::string> inputFiles_; // = parser.stringVector("inputFiles");
   int run_ = parser.integerValue("section");
   std::string outputname= "pixelHistogramsRecHits";
-  outputname.append(std::to_string(run_));
+  //outputname.append(std::to_string(run_));
   outputname.append(".root");
   parser.stringValue("outputFile") = outputname.c_str();
-  /*
-  if (argc >= 2) {
-    int run_ = std::stoi(argv[1]);
-    for (int i = 1; i < argc; ++i) {
-      std::cout << "Argument " << i << ": " << argv[i] << std::endl;
-    }
-  }
-  else {
-    std::cout << "No command line arguments provided." << std::endl;
-  }
-  */
 
   // Set lumisection range
-  int MinLumiSection1 = 37;
-  int MaxLumiSection1 = 60;
+  int MinLumiSection1 = 1;
+  int MaxLumiSection1 = 10000;
   int MinLumiSection2 = 345000;
   int MaxLumiSection2 = 362000;
 
@@ -107,7 +96,7 @@ int main(int argc, char* argv[]) {
   // book a set of histograms
   fwlite::TFileService fs = fwlite::TFileService(outputFile_);
   TFileDirectory dir = fs.mkdir("histograms");
-
+  /*
   TH2F *trxy45210_ = dir.make<TH2F>("trxy45210","trxy45210",500,-5,25,500,-15,15);
   TH2F *trxy45220_ = dir.make<TH2F>("trxy45220","trxy45220",500,-5,25,500,-15,15);
   TH2F *trxy56210_ = dir.make<TH2F>("trxy56210","trxy56210",500,-5,25,500,-15,15);
@@ -127,12 +116,12 @@ int main(int argc, char* argv[]) {
   TH2F *xy45220pl2_ = dir.make<TH2F>("xy45220pl2","xy45220pl2",250,-15,15,250,-15,15);
   TH2F *xy56210pl2_ = dir.make<TH2F>("xy56210pl2","xy56210pl2",250,-15,15,250,-15,15);
   TH2F *xy56220pl2_ = dir.make<TH2F>("xy56220pl2","xy56220pl2",250,-15,15,250,-15,15);
-
-  TH2F *xy45210pl3_ = dir.make<TH2F>("xy45210pl3","xy45210pl3",250,-15,15,250,-15,15);
-  TH2F *xy45220pl3_ = dir.make<TH2F>("xy45220pl3","xy45220pl3",250,-15,15,250,-15,15);
-  TH2F *xy56210pl3_ = dir.make<TH2F>("xy56210pl3","xy56210pl3",250,-15,15,250,-15,15);
-  TH2F *xy56220pl3_ = dir.make<TH2F>("xy56220pl3","xy56220pl3",250,-15,15,250,-15,15);
-
+  */
+  TH2F *xy45210pl3_ = new TH2F("xy45210pl3","xy45210pl3",250,-15,15,250,-15,15);
+  TH2F *xy45220pl3_ = new TH2F("xy45220pl3","xy45220pl3",250,-15,15,250,-15,15);
+  TH2F *xy56210pl3_ = new TH2F("xy56210pl3","xy56210pl3",250,-15,15,250,-15,15);
+  TH2F *xy56220pl3_ = new TH2F("xy56220pl3","xy56220pl3",250,-15,15,250,-15,15);
+  /*
   TH2F *xy45210pl4_ = dir.make<TH2F>("xy45210pl4","xy45210pl4",250,-15,15,250,-15,15);
   TH2F *xy45220pl4_ = dir.make<TH2F>("xy45220pl4","xy45220pl4",250,-15,15,250,-15,15);
   TH2F *xy56210pl4_ = dir.make<TH2F>("xy56210pl4","xy56210pl4",250,-15,15,250,-15,15);
@@ -142,8 +131,13 @@ int main(int argc, char* argv[]) {
   TH2F *xy45220pl5_ = dir.make<TH2F>("xy45220pl5","xy45220pl5",250,-15,15,250,-15,15);
   TH2F *xy56210pl5_ = dir.make<TH2F>("xy56210pl5","xy56210pl5",250,-15,15,250,-15,15);
   TH2F *xy56220pl5_ = dir.make<TH2F>("xy56220pl5","xy56220pl5",250,-15,15,250,-15,15);
-
+  */
   TH1F *ls = dir.make<TH1F>("ls","ls",2000,0,2000);
+  
+  TH1F *th1fin45210 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
+  TH1F *th1fin45220 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
+  TH1F *th1fin56210 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
+  TH1F *th1fin56220 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
 
   // loop the events
   int ievt = 0;
@@ -200,6 +194,7 @@ int main(int argc, char* argv[]) {
 	edm::Handle<std::vector<CTPPSLocalTrackLite> > ppstracks;
         // Use this for running on standard Physics AOD                                                                                                                 
         event.getByLabel(std::string("ctppsLocalTrackLiteProducer"), ppstracks);
+	/*
         for (std::vector<CTPPSLocalTrackLite>::const_iterator track0 = ppstracks->begin(); track0 != ppstracks->end(); ++track0)
           {
             if(track0->rpId() == 2014838784)
@@ -219,7 +214,7 @@ int main(int argc, char* argv[]) {
                 trxy45220_->Fill(track0->x(),track0->y());
               }
           }
-
+	*/
 
 	edm::Handle< edm::DetSetVector<CTPPSPixelRecHit> > pixelRecHits;
 	event.getByLabel(std::string("ctppsPixelRecHits"), pixelRecHits);
@@ -237,71 +232,84 @@ int main(int argc, char* argv[]) {
 
 		if(arm == 0 && station == 0)
 		  {
+		    /*
 		    if(plane == 0)
 		      xy45210pl0_->Fill(rechit.point().x(),rechit.point().y());
 		    if(plane == 1)
                       xy45210pl1_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 2)
                       xy45210pl2_->Fill(rechit.point().x(),rechit.point().y());
+		    */
                     if(plane == 3)
                       xy45210pl3_->Fill(rechit.point().x(),rechit.point().y());
+		    /*
                     if(plane == 4)
                       xy45210pl4_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 5)
                       xy45210pl5_->Fill(rechit.point().x(),rechit.point().y());
-
+		    */
 		  }
 		if(arm == 0 && station == 2)
 		  {
+		    /*
 		    if(plane == 0)
 		      xy45220pl0_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 1)
                       xy45220pl1_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 2)
                       xy45220pl2_->Fill(rechit.point().x(),rechit.point().y());
+		    */
                     if(plane == 3)
                       xy45220pl3_->Fill(rechit.point().x(),rechit.point().y());
+		    /*
                     if(plane == 4)
                       xy45220pl4_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 5)
                       xy45220pl5_->Fill(rechit.point().x(),rechit.point().y());
+		    */
 		  }
                 if(arm == 1 && station == 0)
                   {
+		    /*
 		    if(plane == 0)
 		      xy56210pl0_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 1)
                       xy56210pl1_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 2)
                       xy56210pl2_->Fill(rechit.point().x(),rechit.point().y());
+		    */
                     if(plane == 3)
                       xy56210pl3_->Fill(rechit.point().x(),rechit.point().y());
+		    /*
                     if(plane == 4)
                       xy56210pl4_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 5)
                       xy56210pl5_->Fill(rechit.point().x(),rechit.point().y());
+		    */
                   }
                 if(arm == 1 && station == 2)
                   {
+		    /*
 		    if(plane == 0)
 		      xy56220pl0_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 1)
                       xy56220pl1_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 2)
                       xy56220pl2_->Fill(rechit.point().x(),rechit.point().y());
+		    */
                     if(plane == 3)
                       xy56220pl3_->Fill(rechit.point().x(),rechit.point().y());
+		    /*
                     if(plane == 4)
                       xy56220pl4_->Fill(rechit.point().x(),rechit.point().y());
                     if(plane == 5)
                       xy56220pl5_->Fill(rechit.point().x(),rechit.point().y());
-
+		    */
                   }
 	      }
 	  }
-
-
       }
+
       // close input file
       inFile->Close();
     }
@@ -309,6 +317,64 @@ int main(int argc, char* argv[]) {
     // this has to be done twice to stop the file loop as well
     if (maxEvents_ > 0 ? ievt + 1 > maxEvents_ : false)
       break;
+
+    // close input file                                                                                                                                                                                  
+    //inFile->Close();
   }
+
+  Float_t lumiscaled = 1000.0*1000.0/lumi_; // 1 fb-1                                                                                                                                                    
+  Float_t areascale = 27777.778; // 30mm/500 bins => cm2                                                                                                                                                 
+  Float_t totalscale = lumiscaled*areascale/1E14; // p/cm2/fb-1 * 1E14                                                                                                                                   
+
+  int x1=4;
+  int x2=4;
+  int y1=-11;
+  int y2=8;
+
+  double Mean45210=0;
+  double Mean45220=0;
+  double Mean56210=0;
+  double Mean56220=0;
+
+  for(int i=0;i<50;i++){
+    for(int j=0;j<50;j++){
+      Mean45210+=xy45210pl3_->GetBinContent(xy45210pl3_->GetXaxis()->FindBin(x1)+i,xy45210pl3_->GetYaxis()->FindBin(y1)+j);
+      Mean56210+=xy56210pl3_->GetBinContent(xy56210pl3_->GetXaxis()->FindBin(x1)+i,xy56210pl3_->GetYaxis()->FindBin(y1)+j);
+      Mean45220+=xy45220pl3_->GetBinContent(xy45220pl3_->GetXaxis()->FindBin(x2)+i,xy45220pl3_->GetYaxis()->FindBin(y2)+j);
+      Mean56220+=xy56220pl3_->GetBinContent(xy56220pl3_->GetXaxis()->FindBin(x2)+i,xy56220pl3_->GetYaxis()->FindBin(y2)+j);
+    }
+  }
+
+  Mean45210=Mean45210/2500;
+  Mean45220=Mean45220/2500;
+  Mean56210=Mean56210/2500;
+  Mean56220=Mean56220/2500;
+
+  double Mean45210err = Mean45210/50;
+  double Mean45220err = Mean45220/50;                                                                                                                                                                  
+  double Mean56210err = Mean56210/50;                                                                                                                                                                  
+  double Mean56220err = Mean56220/50;                                                                                                                                                                  
+
+  th1fin45210->SetBinContent(run_-314999,Mean45210*totalscale);
+  th1fin45210->SetBinError(run_-314999,Mean45210err*totalscale);
+  th1fin45220->SetBinContent(run_-314999,Mean45220*totalscale);
+  th1fin45220->SetBinError(run_-314999,Mean45220err*totalscale);
+  th1fin56210->SetBinContent(run_-314999,Mean56210*totalscale);
+  th1fin56210->SetBinError(run_-314999,Mean56210err*totalscale);
+  th1fin56220->SetBinContent(run_-314999,Mean56220*totalscale);
+  th1fin56220->SetBinError(run_-314999,Mean56220err*totalscale);
+
+  cout<<"bin: "<<run_-31499<<endl;
+  cout<<"Mean: "<<Mean45210<<endl;
+  cout<<"err: "<<Mean45210err<<endl;
+  cout<<"Content: "<<Mean45210*totalscale<<endl;
+  cout<<"Error: "<<Mean45210err*totalscale<<endl;
+  
+  delete xy45210pl3_;
+  delete xy45220pl3_;
+  delete xy56210pl3_;
+  delete xy56220pl3_;
+
+
   return 0;}
 
