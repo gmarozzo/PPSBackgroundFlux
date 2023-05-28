@@ -15,7 +15,17 @@ for line in inputA:
   for line2 in lumiA:
     if(line.strip()==line2.split(":")[0].strip()):
       lumi=line2.split(":")[1].strip()
+  lumiA.close()
   outputA.write('    lumi = '+lumi+";\n")
+  schemefile = open("fillinfo.csv","r")
+  linenum=0
+  bunches=''
+  for line3 in schemefile:
+    linenum=linenum+1
+    if linenum>2 and line3.split(",")[1].isdigit() and line3.split(",")[2].isdigit() and line.strip().isdigit():
+      if (int(line.strip())>=int(line3.split(",")[1]) and int(line.strip())<=int(line3.split(",")[2])):
+        bunches=line3.split(",")[14]
+  outputA.write('    bunches = '+bunches+";\n")
   outputA.write("}\n")
 outputA.write("}")
 
@@ -37,7 +47,17 @@ for line in inputB:
   for line2 in lumiB:
     if(line.strip()==line2.split(":")[0].strip()):
       lumi=line2.split(":")[1].strip()
+  lumiB.close()
   outputB.write('    lumi = '+lumi+";\n")
+  schemefile = open("fillinfo.csv","r")
+  linenum=0
+  bunches=''
+  for line3 in schemefile:
+    linenum=linenum+1
+    if linenum>2 and line3.split(",")[1].isdigit():
+      if (int(line.strip())>=int(line3.split(",")[1]) and int(line.strip())<=int(line3.split(",")[2])):
+        bunches=line3.split(",")[14]
+  outputB.write('    bunches = '+bunches+";\n")
   outputB.write("}\n")
 outputB.write("}")
 
@@ -59,7 +79,17 @@ for line in inputC:
   for line2 in lumiC:
     if(line.strip()==line2.split(":")[0].strip()):
       lumi=line2.split(":")[1].strip()
+  lumiC.close()
   outputC.write('    lumi = '+lumi+";\n")
+  schemefile = open("fillinfo.csv","r")
+  linenum=0
+  bunches=''
+  for line3 in schemefile:
+    linenum=linenum+1
+    if linenum>2 and line3.split(",")[1].isdigit():
+      if (int(line.strip())>=int(line3.split(",")[1]) and int(line.strip())<=int(line3.split(",")[2])):
+        bunches=line3.split(",")[14]
+  outputC.write('    bunches = '+bunches+";\n")
   outputC.write("}\n")
 outputC.write("}")
 
@@ -81,6 +111,16 @@ for line in inputD:
   for line2 in lumiD:
     if(line.strip()==line2.split(":")[0].strip()):
       lumi=line2.split(":")[1].strip()
+  lumiD.close() 
+  schemefile = open("fillinfo.csv","r")
+  linenum=0
+  bunches=''
+  for line3 in schemefile:
+    linenum=linenum+1
+    if linenum>2 and line3.split(",")[1].isdigit(): 
+      if (int(line.strip())>=int(line3.split(",")[1]) and int(line.strip())<=int(line3.split(",")[2])):
+        bunches=line3.split(",")[14]
+  outputD.write('    bunches = '+bunches+";\n")
   outputD.write('    lumi = '+lumi+";\n")
   outputD.write("}\n")
 outputD.write("}")

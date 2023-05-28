@@ -1,4 +1,3 @@
-directory = .
 
 executable              = $(directory)/batchScript.sh
 arguments               = /afs/cern.ch/user/g/gmarozzo/CMSSW_12_4_6/src/PPSBackgroundFlux/PPSBackgroundFlux/bin/test/$(directory) $(ClusterId)$(ProcId)
@@ -8,8 +7,7 @@ log                     = log/$(ClusterId).log
 Initialdir              = $(directory)
 request_memory          = 4000M
 #Possible values: https://batchdocs.web.cern.ch/local/submit.html
-queue                    1
-+JobFlavour             = "longlunch"
++JobFlavour             = "workday"
 
 x509userproxy           = /afs/cern.ch/user/g/gmarozzo/x509up_u136841
 

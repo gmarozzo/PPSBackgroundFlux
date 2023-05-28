@@ -196,7 +196,8 @@ void addfilenamesD (int run,std::vector<std::string>& inputFiles_, float& lumi){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/B4C2B522-F864-7D43-B5D8-1308361EB6D9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/13120ED0-5E8D-7146-ACB0-DDE096AE2D07.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/4421157A-64D5-4C4C-A417-E2A4CE24A216.root");
-lumi = 0.728910844;
+    bunches = 1;
+    lumi = 0.728910844;
 }
   if(run ==320569){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/32B61A61-D572-7E4B-81B8-05495BE135A4.root");
@@ -442,7 +443,8 @@ lumi = 0.728910844;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/2410000/0C085FF8-9621-4F43-B8B6-937D86E1D46C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/2410000/7AF2FB11-598E-DC48-BF20-0683513647C2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/2410000/AEDE682C-7DDB-CE45-BD46-05E94DE981A8.root");
-lumi = 0.669183042;
+    bunches = 2;
+    lumi = 0.669183042;
 }
   if(run ==320570){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/269C6C7A-A3DF-F840-945E-E794EB5BBA05.root");
@@ -694,7 +696,8 @@ lumi = 0.669183042;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/ADFB58AF-DBA5-5240-8A7A-FE1419564648.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/24B6BB1D-13E4-A844-8D08-212E98DD7A2E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/3E22ABA2-4453-1D4A-BDEA-AAB17597CA70.root");
-lumi = 0.956732465;
+    bunches = 2;
+    lumi = 0.956732465;
 }
   if(run ==320571){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/44CCF8B7-C430-3743-B5A6-05F4BD954CE0.root");
@@ -752,7 +755,8 @@ lumi = 0.956732465;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/2080247F-8F67-0646-9F04-8E752C7956D4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/7E061CE3-C56E-AA43-B72A-5B5DB510D4B7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/64D3F732-68A2-A342-963C-E389F1D1BB7F.root");
-lumi = 0.147793983;
+    bunches = 2;
+    lumi = 0.147793983;
 }
   if(run ==320673){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/3FC456DD-FE9C-244C-A3E2-EAB5A8925264.root");
@@ -903,7 +907,8 @@ lumi = 0.147793983;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/4BEB1A93-C443-9F43-96A0-F2A0C48C936C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/CDC8759B-D9AE-5E4C-B57D-3116F79FE0CB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/B01941DF-D532-0F47-9B28-5DA84667E179.root");
-lumi = 0.282381112;
+    bunches = 612;
+    lumi = 0.282381112;
 }
   if(run ==320674){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/26B5AF8B-D856-B74C-BB59-3F76AECFBDD4.root");
@@ -939,7 +944,8 @@ lumi = 0.282381112;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/355E4B11-D61A-4749-A1C1-7C44F24E51B2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/54BC2C34-E861-4546-95AE-24B9F741E4A2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/920AF485-6CFF-C140-A1A2-D9C610990A03.root");
-lumi = 0.037842167;
+    bunches = 612;
+    lumi = 0.037842167;
 }
   if(run ==320688){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/7046009D-C621-4B4D-B093-07796E75EEDF.root");
@@ -1039,7 +1045,8 @@ lumi = 0.037842167;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/2488207A-EC19-304D-B083-ADEB75F9AFC1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/0523A511-6CDC-FA45-907D-76334ED4E0C0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/946F03AD-67E6-7148-9AC1-7909347C3316.root");
-lumi = 0.170664373;
+    bunches = 2400;
+    lumi = 0.170664373;
 }
   if(run ==320712){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/6D196461-C58C-4D42-83CA-D809A094E8FE.root");
@@ -1095,7 +1102,8 @@ lumi = 0.170664373;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/871F758F-A792-9445-8499-9CFDD81A72C3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/8C803826-A670-F843-ABF8-21AD1E842CC8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/639AA03B-BEF4-CE4F-844B-9ACE4A5A16FF.root");
-lumi = 0.075540399;
+    bunches = 2544;
+    lumi = 0.075540399;
 }
   if(run ==320757){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/D8E92425-5462-8443-80E3-6DC22EB2902A.root");
@@ -1177,7 +1185,8 @@ lumi = 0.075540399;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260007/92017321-E843-7E48-ADAE-A284FBA9E6FC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/1E75175C-1CAE-8142-B523-A625AB3DF354.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260007/C030B899-B8EA-0C4E-8A62-E970A8602929.root");
-lumi = 0.12698945;
+    bunches = 2544;
+    lumi = 0.12698945;
 }
   if(run ==320804){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/6A95596C-3863-484C-ACA6-8A5297BD64D5.root");
@@ -1370,11 +1379,13 @@ lumi = 0.12698945;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/473E589C-C544-B44C-8566-F8ABCD9DE775.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/0D7171D4-ACA3-1E4D-949D-A690C8867591.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/528E713C-6DF0-C849-B71B-11444A95EE52.root");
-lumi = 0.343813451;
+    bunches = 2546;
+    lumi = 0.343813451;
 }
   if(run ==320807){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/091F010A-A6A5-3F42-B291-8594BFD0F21C.root");
-lumi = 0.019484817;
+    bunches = 2546;
+    lumi = 0.019484817;
 }
   if(run ==320809){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/2F3B0626-9779-C54A-8ED2-6C793E6AA18C.root");
@@ -1460,7 +1471,8 @@ lumi = 0.019484817;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/3B0FA9AF-2BED-3042-BE09-087CF0578C3D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/6F186704-F0AB-5C40-BF19-5F8539040A66.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/D2ABA10C-688F-4940-BF6D-63D727FA67AD.root");
-lumi = 0.117989225;
+    bunches = 2546;
+    lumi = 0.117989225;
 }
   if(run ==320821){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270002/581ED9C5-87B3-9146-B097-A478FF3D8E13.root");
@@ -1509,7 +1521,8 @@ lumi = 0.117989225;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/D74AF46A-80CE-D64A-9C77-CF81B9D33581.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/4E07D482-58E4-5F4A-BB99-3B79244AAB27.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/9F5D3651-2DAA-2A40-BDBB-EEC3F47B71A8.root");
-lumi = 0.065656281;
+    bunches = 2541;
+    lumi = 0.065656281;
 }
   if(run ==320822){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/4364D767-7DB9-964B-BF00-0B55AA612835.root");
@@ -1613,7 +1626,8 @@ lumi = 0.065656281;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/ECB7DF36-4A44-2942-B559-2F147A8F2E8B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/D9D4CF3D-094E-1F4A-BD66-57A5DE8A4869.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/D7585B36-89C3-1A45-8525-CF4136A25452.root");
-lumi = 0.161123327;
+    bunches = 2541;
+    lumi = 0.161123327;
 }
   if(run ==320823){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/07B2E65D-C8A4-9148-AE6C-CA767913F4BC.root");
@@ -1676,7 +1690,8 @@ lumi = 0.161123327;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/027B7D29-A383-5746-B80F-42BCBC181A2C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/4FF0503D-4076-A64A-86B6-8CB4FEC1AA1B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/ED528347-092D-CE47-8413-BC3EC791F8A7.root");
-lumi = 0.086066119;
+    bunches = 2541;
+    lumi = 0.086066119;
 }
   if(run ==320824){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/7E317C81-36AB-B944-9B77-F554EA52CCFD.root");
@@ -1805,7 +1820,8 @@ lumi = 0.086066119;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/494EE502-F123-244A-9871-6C8BC2BE7BD4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/39A5707C-55FB-4C4E-8702-043C1D34B483.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/7E0D7FC3-7F21-8B49-872A-C1202C4830AB.root");
-lumi = 0.177772496;
+    bunches = 2541;
+    lumi = 0.177772496;
 }
   if(run ==320838){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/0B664C96-4B23-9E48-A244-29B69D5198E2.root");
@@ -1884,7 +1900,8 @@ lumi = 0.177772496;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/778B7ECC-C0F4-4047-9944-6F7D55C7BF91.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/C895293B-BB21-1844-B156-D0DCBD6AB609.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/10CE0180-5742-8245-9038-D160A8A54948.root");
-lumi = 0.099848862;
+    bunches = 2544;
+    lumi = 0.099848862;
 }
   if(run ==320840){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/9ABB62B1-8FBF-BB48-B171-A86358248F4A.root");
@@ -1966,7 +1983,8 @@ lumi = 0.099848862;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/E35294E8-83A2-244B-B98E-5C4BBD803C0E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/E4F9667D-9A0E-8248-9F39-2AF450E58B20.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/98EBBEF4-4DCA-FB4C-8D14-363F7F340823.root");
-lumi = 0.151689857;
+    bunches = 2544;
+    lumi = 0.151689857;
 }
   if(run ==320841){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/BD47A144-383D-5144-A4C3-4F4E417275B6.root");
@@ -2001,7 +2019,8 @@ lumi = 0.151689857;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/65A49EA6-2DC1-0E4A-83CA-62D53F78D65D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/68437A9B-79E0-8942-A436-78553BB1FE0B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/939AADED-BB4C-164F-AAED-4EFDCFCFC50C.root");
-lumi = 0.054384766;
+    bunches = 2544;
+    lumi = 0.054384766;
 }
   if(run ==320853){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/64E92622-AA4D-0044-B50C-8021092C7506.root");
@@ -2089,7 +2108,8 @@ lumi = 0.054384766;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/B5657C30-91DE-FD4C-A9F4-523DA6F51E89.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/8E5664FB-CB50-EC41-9B59-FF7073AE7033.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/E591ACAA-7631-7144-A084-B682729752A9.root");
-lumi = 0.127685161;
+    bunches = 2544;
+    lumi = 0.127685161;
 }
   if(run ==320854){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/CBD8A997-4B26-CC44-B300-64A15BA899DE.root");
@@ -2115,7 +2135,8 @@ lumi = 0.127685161;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/DD2F1973-4616-DE46-8865-6D8340BA7413.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/3C4E6106-2673-5542-9C91-0D091A2D429C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/E93D0E59-6D73-F444-BB40-4E8653EBA743.root");
-lumi = 0.042637569;
+    bunches = 2544;
+    lumi = 0.042637569;
 }
   if(run ==320855){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/34093C44-925A-284D-A950-764CEF9A9E52.root");
@@ -2198,7 +2219,8 @@ lumi = 0.042637569;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/11FFF2A7-0595-E84D-A4B3-4B368E4BB049.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/A6471B11-F77F-BD45-8FFD-C68D4B29E3D6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/84C32D94-2C51-E44D-B356-9F524DD54B63.root");
-lumi = 0.157622465;
+    bunches = 2544;
+    lumi = 0.157622465;
 }
   if(run ==320856){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/9AD8ABBD-6889-E549-B2C5-9623871025F5.root");
@@ -2219,7 +2241,8 @@ lumi = 0.157622465;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/EA1B01D6-D6AC-9C44-AA9C-1FAB52612A0B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/2D4EDFF9-6021-084D-ADE3-DE633521E16E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/ED264F50-DA23-2840-9DD1-034C092A2C79.root");
-lumi = 0.036018944;
+    bunches = 2544;
+    lumi = 0.036018944;
 }
   if(run ==320857){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/6F0009DC-F16C-084E-BF6A-811735B1D324.root");
@@ -2254,7 +2277,8 @@ lumi = 0.036018944;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/2A0FC3AE-B0D5-774D-B194-F3D6A65869BF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/A1444640-A9E2-7A44-B022-412360BEA8C8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/6A9D1ECD-90A8-8342-8560-5B1EF0AFE430.root");
-lumi = 0.05685001;
+    bunches = 2544;
+    lumi = 0.05685001;
 }
   if(run ==320858){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/E8B90F3C-2715-FA47-B87A-23F4C9D86D6F.root");
@@ -2285,7 +2309,8 @@ lumi = 0.05685001;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/F5626781-D0F7-8140-A033-E79116EF514F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/F0729DB5-04CE-584E-AB3D-FBF56C24BB33.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/BD7C3C0D-160B-104F-B610-18749139F34F.root");
-lumi = 0.040353413;
+    bunches = 2544;
+    lumi = 0.040353413;
 }
   if(run ==320859){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/5407D1EC-B1C0-AF4E-9942-BAA17ADCA3FE.root");
@@ -2295,7 +2320,8 @@ lumi = 0.040353413;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/DAD878EC-B39C-984E-B307-8C21DC3FBB0F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/83DAA086-92F9-BB46-BC72-527E31781CAA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/A1444640-A9E2-7A44-B022-412360BEA8C8.root");
-lumi = 0.005636425;
+    bunches = 2544;
+    lumi = 0.005636425;
 }
   if(run ==320887){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/BD42EE89-79DB-DD4B-9EC4-2F8486795184.root");
@@ -2371,7 +2397,8 @@ lumi = 0.005636425;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/31E83A47-6C2E-5643-BEA3-A2080418C08B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/2A12DDC2-A65D-154E-BF58-7E93BFFB08A1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/9066887B-E7CF-B546-86D1-F5ABBEFED5A6.root");
-lumi = 0.113152592;
+    bunches = 2544;
+    lumi = 0.113152592;
 }
   if(run ==320888){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/66F33FD0-B54A-3148-8BB6-A2B21D0964AE.root");
@@ -2402,7 +2429,8 @@ lumi = 0.113152592;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/8A0E32E1-FAF6-2648-B0A7-F2CA01983F59.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/588501DA-3506-6949-9767-A7B001717F80.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/A361CFF8-D981-8A45-A915-ECCC0ABBACE0.root");
-lumi = 0.045432258;
+    bunches = 2544;
+    lumi = 0.045432258;
 }
   if(run ==320916){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/BEBC9DBD-7BE1-B347-AC82-7C0AF2B50508.root");
@@ -2411,7 +2439,8 @@ lumi = 0.045432258;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/64B600CB-E6A4-5F46-9694-8369337E91FD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/C3AEB63B-E2D2-0447-8B3C-EC57B9A681DE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/562AF223-E455-F643-913B-50AE0FCA1710.root");
-lumi = 0.007266913;
+    bunches = 2544;
+    lumi = 0.007266913;
 }
   if(run ==320917){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/CB242B84-6BE5-BA40-97C0-FC6F6F0A2C61.root");
@@ -2673,7 +2702,8 @@ lumi = 0.007266913;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/888E97A8-68C0-0C40-9737-97C496660A1B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/AB600AE7-A064-C14F-B59A-6DFBAB7EAA2B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/73BDA572-78C9-E942-8A0F-0BB4ECAFF91F.root");
-lumi = 0.513869198;
+    bunches = 2544;
+    lumi = 0.513869198;
 }
   if(run ==320920){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/4220E8BA-B628-8543-998C-35CB963B9401.root");
@@ -2701,7 +2731,8 @@ lumi = 0.513869198;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/242F33EA-2216-1D4A-8213-3FE43197AA6F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/41937040-1067-F64D-9F1C-5154A45A4361.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/AC3F02C3-7B06-EC4B-A365-CAC34A1A3719.root");
-lumi = 0.026468141;
+    bunches = 2544;
+    lumi = 0.026468141;
 }
   if(run ==320933){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/E65EF085-7585-5E4A-8D12-EA563A26B6FE.root");
@@ -2743,7 +2774,8 @@ lumi = 0.026468141;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/42E2CBC7-65BF-8D45-9CD3-943F3F48536A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/D616D0D4-19F1-4448-9A9C-40228ED40866.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/55F2D461-F71E-6F46-90B6-088F8F89773A.root");
-lumi = 0.056469719;
+    bunches = 2544;
+    lumi = 0.056469719;
 }
   if(run ==320934){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/29A0108A-EAA7-624E-AFFD-129DCEDB88EA.root");
@@ -2871,7 +2903,8 @@ lumi = 0.056469719;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/872EEBB9-AC5E-8B47-9D9B-36D90BF74B20.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/2610375F-57D3-7B44-B61F-C1BD3B6148EE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/0FEEA063-A9A9-7746-A14F-152E7DA67ED1.root");
-lumi = 0.226347458;
+    bunches = 2544;
+    lumi = 0.226347458;
 }
   if(run ==320936){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/D45C0777-13D6-184A-A109-A8D92615F98A.root");
@@ -2929,7 +2962,8 @@ lumi = 0.226347458;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/3B662A76-C1B7-3F41-BEAD-7D26740A8E0C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/65904BFA-FE48-9C4F-912C-428EEDEBB9DD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/3AA217DD-B4BD-5142-A1AA-6596059F651A.root");
-lumi = 0.084232116;
+    bunches = 2544;
+    lumi = 0.084232116;
 }
   if(run ==320941){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/C4A602FC-3C87-5546-A01E-B2E861ECC4E5.root");
@@ -2954,7 +2988,8 @@ lumi = 0.084232116;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/D616D0D4-19F1-4448-9A9C-40228ED40866.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/7C2560BE-B0EB-2B4B-8D9B-2332865FB349.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/29B8E3C1-BF64-F845-B115-FD493D8FCAF7.root");
-lumi = 0.017805481;
+    bunches = 2544;
+    lumi = 0.017805481;
 }
   if(run ==320980){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/F88E48CB-B35E-7944-A163-7E6F4328DCC1.root");
@@ -2989,7 +3024,8 @@ lumi = 0.017805481;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/C2D9AA22-54DD-B445-A3B3-DC19ED21FF13.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/FABB7D36-5E41-3044-B033-745AB07EB9F7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/0F5BF125-3DED-5945-8953-D4ACF5E48588.root");
-lumi = 0.042261485;
+    bunches = 2544;
+    lumi = 0.042261485;
 }
   if(run ==320995){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/7C2560BE-B0EB-2B4B-8D9B-2332865FB349.root");
@@ -3051,7 +3087,8 @@ lumi = 0.042261485;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/BA9BAAA0-EFF2-8640-A96B-148D0BEE2075.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/EEA80B01-7C51-E845-99F6-57600420686A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/39A3E652-7C27-2D46-94AA-B082EA9A50E6.root");
-lumi = 0.07327053;
+    bunches = 974;
+    lumi = 0.07327053;
 }
   if(run ==320996){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/C04F5C7E-94F9-8B40-AB51-4003791AF1D9.root");
@@ -3133,7 +3170,8 @@ lumi = 0.07327053;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/D99396B4-1B24-6947-B72A-FC150A3E5F99.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/991E9BB9-7959-9444-B214-C7A660E17321.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/0FC5925E-2120-E544-82F2-5B41F31F5FE6.root");
-lumi = 0.136902055;
+    bunches = 974;
+    lumi = 0.136902055;
 }
   if(run ==321004){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/F14E4C16-8E41-5C4C-8EA4-CBDCB8ED56B1.root");
@@ -3176,7 +3214,8 @@ lumi = 0.136902055;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/D2ACDC1A-4184-494C-B505-4BB20A9BCFB5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/DAEEB8BF-DC49-8548-B108-0733F23D6A96.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/5D82DF63-8309-0F4C-956A-00CF1A5E5B10.root");
-lumi = 0.051184273;
+    bunches = 2544;
+    lumi = 0.051184273;
 }
   if(run ==321005){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/BDC6F1C0-FBC2-EB49-A984-4B15566EBB85.root");
@@ -3193,7 +3232,8 @@ lumi = 0.051184273;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280002/0074208B-6B7E-F64E-AECF-8A7F5929D66A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/48549AD8-DCE3-0A4B-BA1D-4E1B50383A7C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/0FC5925E-2120-E544-82F2-5B41F31F5FE6.root");
-lumi = 0.020644832;
+    bunches = 2544;
+    lumi = 0.020644832;
 }
   if(run ==321006){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/EDF9FC9E-89C3-0748-8E69-5AD4036FC796.root");
@@ -3222,7 +3262,8 @@ lumi = 0.020644832;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/FB484FCA-746A-BB49-809E-586B3194C262.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/B3037139-9D54-4D4A-9EF7-E0C3400A09A7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/18734CCD-0276-DE41-AF55-BA5A4214CC13.root");
-lumi = 0.055607184;
+    bunches = 2544;
+    lumi = 0.055607184;
 }
   if(run ==321007){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/48549AD8-DCE3-0A4B-BA1D-4E1B50383A7C.root");
@@ -3342,7 +3383,8 @@ lumi = 0.055607184;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/860DA35C-2B80-2C42-BD8D-CEFDD71579C4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/B31F6406-9FEF-0948-AB98-027AB023594C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/D2734E0B-B36B-8444-8D9A-0DB0CDAB3494.root");
-lumi = 0.218068924;
+    bunches = 2544;
+    lumi = 0.218068924;
 }
   if(run ==321009){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/04D906BD-C901-6448-B78C-E043E403A5F5.root");
@@ -3359,7 +3401,8 @@ lumi = 0.218068924;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/2C2A38C1-DEF5-9541-9217-0394185320A4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/CF5BB3FE-D8DC-A945-9DCE-567340FD6946.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/9DF2C5D4-5D33-8745-9BBC-C45D5F9A96C5.root");
-lumi = 0.015845061;
+    bunches = 2544;
+    lumi = 0.015845061;
 }
   if(run ==321010){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/F98975A0-9BE8-AE44-9DE7-86596F1C32BD.root");
@@ -3401,7 +3444,8 @@ lumi = 0.015845061;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/B26223A3-D1A7-A846-B3EB-DE0B3694B529.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/D3012F8E-1409-ED45-A435-DF711DA01773.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/E0439936-A994-F24F-9DE5-ECA556E1C444.root");
-lumi = 0.061524944;
+    bunches = 2544;
+    lumi = 0.061524944;
 }
   if(run ==321011){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/BC29003A-83E3-0E46-8AC3-8CFC256897FF.root");
@@ -3429,7 +3473,8 @@ lumi = 0.061524944;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/DE7C6AE6-07F1-9442-AAF1-8F0917E7DDAE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/D3365059-1975-AB45-9A20-C614011EBC8A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/F43E2441-3889-B04C-A3AA-8D7AF831FC5E.root");
-lumi = 0.031134068;
+    bunches = 2544;
+    lumi = 0.031134068;
 }
   if(run ==321012){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/9D3E7E81-8D84-6A44-BFE5-A3EE6E67B32D.root");
@@ -3451,7 +3496,8 @@ lumi = 0.031134068;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/4B42CDA0-4BF9-514D-9C87-EBCA22C8A4DB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/50AD7351-1B24-CF4B-8A2D-FE84AB61707C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/2381A253-947E-B649-851D-D119877B2DFA.root");
-lumi = 0.021307891;
+    bunches = 2544;
+    lumi = 0.021307891;
 }
   if(run ==321051){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/356CAA99-110E-BA4B-9FAC-BA8C84AA0756.root");
@@ -3621,7 +3667,8 @@ lumi = 0.021307891;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110002/D91BAB1A-32AD-FD47-9C64-D8E4CE73EC8E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/9A22FA46-83D8-9245-977F-427E678ED748.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110002/B24CC760-45C5-4A47-A016-9D6507A7298D.root");
-lumi = 0.335802411;
+    bunches = 2544;
+    lumi = 0.335802411;
 }
   if(run ==321055){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/227DAD9A-89D0-5444-BDD4-6D5123B1600C.root");
@@ -3702,7 +3749,8 @@ lumi = 0.335802411;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/10CE0180-5742-8245-9038-D160A8A54948.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/34D5B79C-0574-EB49-8C73-EAA2527CD7E5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/EE357824-CE38-9F4D-9A50-DF6409FBEDCF.root");
-lumi = 0.140592037;
+    bunches = 2544;
+    lumi = 0.140592037;
 }
   if(run ==321067){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/D370E6BF-7FCF-8641-935D-6E8F554A16AF.root");
@@ -3797,7 +3845,8 @@ lumi = 0.140592037;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/BAD7FF6D-48CD-6942-ADCC-DA55DBAB0910.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/C3AEB63B-E2D2-0447-8B3C-EC57B9A681DE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/0DFAF502-48B7-C742-B7E3-A72E8BA0C0C5.root");
-lumi = 0.188442359;
+    bunches = 2544;
+    lumi = 0.188442359;
 }
   if(run ==321068){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/D05F4A68-3A47-4347-AD4C-B1C94C904AEB.root");
@@ -3888,7 +3937,8 @@ lumi = 0.188442359;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/DFB74BFC-69F5-3845-86AB-D6B70E6876E9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/A46C5305-C855-2048-AF38-3169F5E094D0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/783ECE3D-E595-E24D-8E04-E9D035F997B1.root");
-lumi = 0.158243539;
+    bunches = 2544;
+    lumi = 0.158243539;
 }
   if(run ==321069){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/29D040B4-EBB8-464F-ABB8-89080026EF92.root");
@@ -3927,7 +3977,8 @@ lumi = 0.158243539;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/83F21EBB-D5E0-9448-9A0E-812905C8282A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/1508AEF4-B8A5-D645-892D-E7123A8D40B3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/EAA14917-15C1-F940-BD21-1FA76D9AB71E.root");
-lumi = 0.053379667;
+    bunches = 2544;
+    lumi = 0.053379667;
 }
   if(run ==321119){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/C0C252C2-95A0-6D48-A084-5F6D2D51B007.root");
@@ -3974,7 +4025,8 @@ lumi = 0.053379667;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/240A0050-7076-C946-9767-47032B319667.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/F2A0F44F-5B22-7C42-A5E8-0A5D3700D08A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/1CED7BD5-A9A4-FE4E-9763-49E286E5460C.root");
-lumi = 0.063560688;
+    bunches = 2544;
+    lumi = 0.063560688;
 }
   if(run ==321121){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/3452A4F9-B89B-E944-9269-0D110D950324.root");
@@ -3988,7 +4040,8 @@ lumi = 0.063560688;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/514B29D6-EF08-3749-A29B-B91722032E0B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/8CB58DDA-FE51-274C-AD87-1647DCC030F0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/D0E1104C-D168-BB4C-86DD-B71CBB649454.root");
-lumi = 0.01702652;
+    bunches = 2544;
+    lumi = 0.01702652;
 }
   if(run ==321122){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/1779828F-79C9-814D-A8F6-6F90D28E5FCC.root");
@@ -4049,11 +4102,13 @@ lumi = 0.01702652;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/BB6B7573-392E-B54C-A6D1-4276FB90982F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/5DC6B364-8B4B-9B41-8271-85572D4188EB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/49F08960-9626-FE4F-800D-97537A621FB4.root");
-lumi = 0.129430633;
+    bunches = 2544;
+    lumi = 0.129430633;
 }
   if(run ==321123){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/CE702397-0CE3-F84A-AEF7-166A1271B007.root");
-lumi = 0.000400239;
+    bunches = 2544;
+    lumi = 0.000400239;
 }
   if(run ==321124){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/2781978B-3318-8440-BE93-BFC12208E01F.root");
@@ -4149,7 +4204,8 @@ lumi = 0.000400239;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/EB804F22-3618-8345-8420-74158C91AE06.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/7C43F366-19F5-144D-85AC-FF0677C13F8C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/85EF88D7-3155-244F-90A1-F46D586B44D6.root");
-lumi = 0.199295973;
+    bunches = 2544;
+    lumi = 0.199295973;
 }
   if(run ==321126){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/B960EEB5-F50A-EA42-B3C8-8F0C1C1E95AB.root");
@@ -4196,7 +4252,8 @@ lumi = 0.199295973;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/ACFACC0D-1825-1746-AE7C-C57CBBC656BF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/04B1F9D2-38BC-1148-B1B9-14AC67B8F7B7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/530283D0-F2DA-354C-B180-AF75F74D2289.root");
-lumi = 0.085554002;
+    bunches = 2544;
+    lumi = 0.085554002;
 }
   if(run ==321134){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/29FEDCC1-DC0B-C041-A898-D37EA7D7C522.root");
@@ -4209,7 +4266,8 @@ lumi = 0.085554002;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/FDEC6E64-C43E-564F-86A0-3A721F95008A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/825B7E4B-6760-F049-958B-7CE48C3F4E84.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/CA6FB444-1793-C841-B76A-099BA0768C13.root");
-lumi = 0.009247003;
+    bunches = 2544;
+    lumi = 0.009247003;
 }
   if(run ==321138){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/ED0BC463-350A-D34F-861B-20BC02696CB8.root");
@@ -4295,7 +4353,8 @@ lumi = 0.009247003;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/36F1415E-8EB2-6F4F-B235-4DB7655EA1CF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/7118D691-9DBE-7445-9E85-5C3E0C60E21E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/5F3BFDBA-468D-2542-A6FD-F0EBF48DC47C.root");
-lumi = 0.152694052;
+    bunches = 2544;
+    lumi = 0.152694052;
 }
   if(run ==321140){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/6731F11F-D80D-864B-8F79-D3426242761B.root");
@@ -4371,7 +4430,8 @@ lumi = 0.152694052;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/BA3A04EC-F57D-7D4F-BD9A-25E7EAC2092E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/DCBB8183-FC31-5C49-ADB0-0172B466A309.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/F98CF698-E312-A649-922F-C12C41E57350.root");
-lumi = 0.125897212;
+    bunches = 2544;
+    lumi = 0.125897212;
 }
   if(run ==321149){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/6ACFC8EB-1D7D-324F-A222-44A6D75E58F7.root");
@@ -4612,7 +4672,8 @@ lumi = 0.125897212;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/861B784A-5035-3A4A-82F1-7A7B58CB42BD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/B8229C4D-128F-F143-92BD-CCD7F77F17DD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110003/0066859D-190C-C045-A607-11ED2DB03A0B.root");
-lumi = 0.469927103;
+    bunches = 2544;
+    lumi = 0.469927103;
 }
   if(run ==321162){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/EA9FC715-FBE4-DB4C-A13A-89F25F45096B.root");
@@ -4625,7 +4686,8 @@ lumi = 0.469927103;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/F812FD56-0775-EB43-9F8D-E67A0D023690.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/CF583477-EFB0-0149-8269-5BC4B6064C4B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/3553601C-5AAF-204D-BBC1-C972C7B13E96.root");
-lumi = 0.012754248;
+    bunches = 2544;
+    lumi = 0.012754248;
 }
   if(run ==321164){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/5105583B-E751-604C-A4FD-921ECEAB162E.root");
@@ -4644,17 +4706,20 @@ lumi = 0.012754248;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/E0D2BB9B-9D69-0A4E-9E0B-E845A6EA2938.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/550CA392-95C3-3242-A9E1-452858E7BDEF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/09294388-942B-2242-8E52-420910F50DC8.root");
-lumi = 0.028283322;
+    bunches = 2544;
+    lumi = 0.028283322;
 }
   if(run ==321165){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/2DCBEA13-20EF-3345-80BE-7957F5ECB620.root");
-lumi = 0.021805133;
+    bunches = 2544;
+    lumi = 0.021805133;
 }
   if(run ==321166){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/EA9FC715-FBE4-DB4C-A13A-89F25F45096B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/008D5452-3F5A-0E49-A102-426ED982D455.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/57885F9E-3B4D-7A47-AE44-95F33EF2B829.root");
-lumi = 0.003636152;
+    bunches = 2544;
+    lumi = 0.003636152;
 }
   if(run ==321167){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/9C6C3207-DC0F-B94A-9B60-6238FC6DE336.root");
@@ -4800,7 +4865,8 @@ lumi = 0.003636152;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/A07BA791-D22D-5542-9D8B-99E7390B4764.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/3217A08E-B1A3-1640-91B9-C94D8D36C924.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/68B9BD45-9A81-E440-970C-66C54C696FB0.root");
-lumi = 0.296538302;
+    bunches = 2544;
+    lumi = 0.296538302;
 }
   if(run ==321177){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/C5D40AE8-2E83-5E40-A831-939DCFC277BA.root");
@@ -4916,7 +4982,8 @@ lumi = 0.296538302;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/68B7FF86-04A7-E74D-A74C-169A3D914336.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/E603DA29-4F08-6947-8931-20A1F1DABB1D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/9129E86D-F9B4-F548-95D9-D2F1342CE606.root");
-lumi = 0.185736101;
+    bunches = 2544;
+    lumi = 0.185736101;
 }
   if(run ==321178){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/1A2053BD-AE3A-0B46-8BD8-791C3BB2097A.root");
@@ -4936,7 +5003,8 @@ lumi = 0.185736101;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/C34A14B3-4DCA-9949-859E-F3025301696A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/FE1EAE70-DFF3-9E4A-A5A3-B48CD13BED9E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/1E08E4CA-D969-5D4E-B157-5F9897DD45B1.root");
-lumi = 0.025995571;
+    bunches = 2544;
+    lumi = 0.025995571;
 }
   if(run ==321218){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/B9515C92-6E38-364D-A4C4-804EFC588B93.root");
@@ -5101,7 +5169,8 @@ lumi = 0.025995571;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/6583BE2C-B618-4043-8DBC-78D03F4EF83A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/18B65D7D-D371-F144-B8DC-7E88877074EE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/3A1D7D5F-FC0C-F349-B256-D6DEE06BD6D5.root");
-lumi = 0.304535303;
+    bunches = 2544;
+    lumi = 0.304535303;
 }
   if(run ==321219){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/F8A130B1-7957-5245-AE03-D7F50176BB73.root");
@@ -5226,7 +5295,8 @@ lumi = 0.304535303;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/E89DF89E-A37E-1644-8CAB-3F26DA1EE3CD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/7B709B82-3A0C-314B-B67C-A5649306097A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/9D1C4AF6-FF5A-9A43-936A-267EBBDF187E.root");
-lumi = 0.194866804;
+    bunches = 2544;
+    lumi = 0.194866804;
 }
   if(run ==321221){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/722CDEFC-2E15-654F-9068-44581E5979A1.root");
@@ -5237,7 +5307,8 @@ lumi = 0.194866804;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/82808666-39D1-DA4E-BA11-3B04A486415C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/E89DF89E-A37E-1644-8CAB-3F26DA1EE3CD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/D6D1E3F0-0322-3941-92DD-0B4B080DCBCB.root");
-lumi = 0.006376314;
+    bunches = 2544;
+    lumi = 0.006376314;
 }
   if(run ==321230){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/384A373C-B0E4-A742-8EB4-3A3D8BF4E057.root");
@@ -5265,7 +5336,8 @@ lumi = 0.006376314;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/59ADC739-9F06-EC4C-8E82-1F7D0B0BD538.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/AED01D88-DFAD-DD42-819A-FF229AE747B6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/2410000/589F32BE-C11E-DD4D-BCE8-66DD0EBB6B2B.root");
-lumi = 0.025056933;
+    bunches = 2544;
+    lumi = 0.025056933;
 }
   if(run ==321231){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/4D61F01A-DF80-6B45-959E-325B8EF0C3C3.root");
@@ -5280,7 +5352,8 @@ lumi = 0.025056933;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/677A47D7-0B9E-B046-AB83-F33FD0070EAC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/57F36E98-BA0B-4F47-A359-68A4686D1C98.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/7E6A5298-F86B-5C4A-B9C0-A32A288771E1.root");
-lumi = 0.015619993;
+    bunches = 2544;
+    lumi = 0.015619993;
 }
   if(run ==321232){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/F7DE6289-6D77-874A-808C-1DE45B881DC9.root");
@@ -5289,7 +5362,8 @@ lumi = 0.015619993;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/572F0D4A-C6B2-6646-B198-78E1F4B97B61.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/6E34FE9E-E589-F44F-BEDE-FA91A011A3A3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/EF6B9C90-B2BA-0F47-B43D-BE8BB82C9B19.root");
-lumi = 0.00651521;
+    bunches = 2544;
+    lumi = 0.00651521;
 }
   if(run ==321233){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/F2BFE23C-533F-D444-8FBF-B67DEA64F0E9.root");
@@ -5431,7 +5505,8 @@ lumi = 0.00651521;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/31D51B26-0170-734C-92ED-0E880C392F7F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/36F1415E-8EB2-6F4F-B235-4DB7655EA1CF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/96F53EF9-2CA3-1142-BF38-F279D8F40E0C.root");
-lumi = 0.249534023;
+    bunches = 2544;
+    lumi = 0.249534023;
 }
   if(run ==321261){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/D3577504-E459-D24F-AA5B-4FDFED5A1654.root");
@@ -5445,13 +5520,15 @@ lumi = 0.249534023;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/4DC077FE-D497-7043-B10F-1EFF93907FBA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/424A13A8-105F-CA4F-9065-1F36045EDD9B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/D227A1F7-BE63-6E48-A0B0-03BE60622D0A.root");
-lumi = 0.005158802;
+    bunches = 2544;
+    lumi = 0.005158802;
 }
   if(run ==321262){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/5EE29ED7-AE1F-3643-98E9-04EEDDAC6393.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/BDD58CEC-BF0C-6947-BC50-349085AD9E77.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/EF6B9C90-B2BA-0F47-B43D-BE8BB82C9B19.root");
-lumi = 0.002089464;
+    bunches = 2544;
+    lumi = 0.002089464;
 }
   if(run ==321283){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/C7AF3FF3-52D1-A34A-B28E-549B55FE8686.root");
@@ -5541,7 +5618,8 @@ lumi = 0.002089464;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/E0E31B26-0DCC-5C4E-8400-36B1BF70E646.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/7DF7205D-3F67-9C41-903D-88C30276EC50.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/DB29DE8A-F3BF-DC49-8983-3949060F3885.root");
-lumi = 0.129554955;
+    bunches = 2544;
+    lumi = 0.129554955;
 }
   if(run ==321294){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/A95D7C39-F25A-FC42-B350-D1823B9FADA3.root");
@@ -5555,7 +5633,8 @@ lumi = 0.129554955;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/077CFDA0-8B05-5245-A96D-929F992C4C88.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/2C397F6C-BC87-9A4B-B275-388CBEB7B934.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/FC43D710-6F77-E547-9EEF-7D4940EBB0FF.root");
-lumi = 0.022166294;
+    bunches = 2544;
+    lumi = 0.022166294;
 }
   if(run ==321295){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/255E3A31-D2AD-CA45-81C9-164C793C84E3.root");
@@ -5667,7 +5746,8 @@ lumi = 0.022166294;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/BA0F9B71-D1DD-8B48-ADAB-A2CFC3ECF84F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/A7923327-974E-284D-B273-55A982A2A3BC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/9C059F7B-6721-3C4F-80CA-A37BD5481FE2.root");
-lumi = 0.220845284;
+    bunches = 2544;
+    lumi = 0.220845284;
 }
   if(run ==321296){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/FE71AB30-A4E3-B943-AA08-7AEBAD6A3801.root");
@@ -5682,7 +5762,8 @@ lumi = 0.220845284;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/990F92AD-0310-5B49-8EBE-E64821EA6AD9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/DBA58FC8-AC2F-034B-99B5-0078A277D6C1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/DD98DE89-17DE-5343-A885-07F467F7F859.root");
-lumi = 0.015476067;
+    bunches = 2544;
+    lumi = 0.015476067;
 }
   if(run ==321305){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/16BC2CC4-9E8B-924E-AD0C-F765CE622C25.root");
@@ -6007,7 +6088,8 @@ lumi = 0.015476067;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/C037B6CB-9E61-4F4E-B269-0E1E2874347A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/C047B344-9C16-0843-AA21-914546E9C145.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/70B96BDE-512A-3441-AA3F-8FE62C02EA8E.root");
-lumi = 0.648670238;
+    bunches = 2544;
+    lumi = 0.648670238;
 }
   if(run ==321310){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/E49C192B-AF30-934E-8BE8-5681CFE9146E.root");
@@ -6027,12 +6109,14 @@ lumi = 0.648670238;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/DD3AE755-4517-3D46-B915-7BD489DA7B69.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/5876BC55-9733-274A-88A9-3E31319567A1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/16839191-BD4B-2E46-B7EC-78827D2137C8.root");
-lumi = 0.017732476;
+    bunches = 2544;
+    lumi = 0.017732476;
 }
   if(run ==321311){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/05BB2A7E-BD1D-E548-902F-4F30B8DC391B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/E49C192B-AF30-934E-8BE8-5681CFE9146E.root");
-lumi = 0.000508966;
+    bunches = 2544;
+    lumi = 0.000508966;
 }
   if(run ==321312){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/D62A0800-BEE0-B34A-97A2-8C494809FA31.root");
@@ -6086,7 +6170,8 @@ lumi = 0.000508966;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/3C4F2840-DBD4-8B4D-BA1D-5104E7B742BB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/744E6DDB-5E89-1D4E-95DA-BB3CE6F24551.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/5A7926FE-F4E4-1049-87D1-F83CF268465F.root");
-lumi = 0.064814918;
+    bunches = 2544;
+    lumi = 0.064814918;
 }
   if(run ==321313){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/FA1B0001-1C80-D949-90DA-3FC18EE630A7.root");
@@ -6109,7 +6194,8 @@ lumi = 0.064814918;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/04A2DE17-015D-B14C-800F-D1163A03A4AF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/74AC4925-E39B-574A-9DEA-8873BDCA9F6F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/C3E3AB70-2326-BF43-99DF-F5FBB8C40F86.root");
-lumi = 0.029198704;
+    bunches = 2544;
+    lumi = 0.029198704;
 }
   if(run ==321393){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/3AB847AA-3E9D-4B4B-806B-947EA88D3AAB.root");
@@ -6147,7 +6233,8 @@ lumi = 0.029198704;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/81C1002C-0EE1-EF48-85DE-070FFAA6B20F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/EBEB7428-FA85-404C-BA58-43E214D6AFD8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/1A31B4AF-0408-FD48-B3AD-0D74166BF6E8.root");
-lumi = 0.055873203;
+    bunches = 2544;
+    lumi = 0.055873203;
 }
   if(run ==321396){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/0D0B4BAF-87AB-B848-8F91-443A9452455B.root");
@@ -6338,7 +6425,8 @@ lumi = 0.055873203;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/71A71ABB-3007-EF4D-BC71-6AE840BFE93D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/C8A611F8-86D3-F94B-8A90-C575D63C42F7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/024B0B1D-35D5-E746-8B84-5C5E6B47703B.root");
-lumi = 0.392572006;
+    bunches = 2544;
+    lumi = 0.392572006;
 }
   if(run ==321397){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/FF618369-F36A-EE49-A33B-DA6697B1ACF5.root");
@@ -6383,7 +6471,8 @@ lumi = 0.392572006;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/40A3E7A0-822A-3544-BD27-684F9602122D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/728DE9DC-6B52-3C4C-9648-A5A17CFBFF1C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/2354D134-EA4B-E141-90A5-E6A8700F5B3E.root");
-lumi = 0.056820865;
+    bunches = 2544;
+    lumi = 0.056820865;
 }
   if(run ==321414){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/1A07435C-F13B-CB4E-95C1-3134FE853E3A.root");
@@ -6608,7 +6697,8 @@ lumi = 0.056820865;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/D702E244-5891-304A-B2EC-E480913AA97B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/77ECEE88-8EF8-C148-BB4B-41B6C94024A8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/11BE87E8-04CE-524E-8165-48447AC103E9.root");
-lumi = 0.410444608;
+    bunches = 2544;
+    lumi = 0.410444608;
 }
   if(run ==321415){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/B41A04A0-FA42-FB47-BF59-113C02D7DB4B.root");
@@ -6705,7 +6795,8 @@ lumi = 0.410444608;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/CD83288E-53BA-784D-928A-E70DFBA8D886.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/8898CE9A-D3D7-374E-934D-86E85CC85A54.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/4C74E8CE-D683-A34D-9F6D-8A79F6D41117.root");
-lumi = 0.171021216;
+    bunches = 2544;
+    lumi = 0.171021216;
 }
   if(run ==321431){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/FFC1995C-4BE2-9147-984A-35FB6A333B64.root");
@@ -6749,7 +6840,8 @@ lumi = 0.171021216;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/F3F6926C-EC2E-F944-9CC3-BDB16898B3C0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/B5733FA8-1EDF-F349-8611-3090A41D5CAC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/FC22F5C7-6FA0-3C4A-AFE8-A52D295C2112.root");
-lumi = 0.061293422;
+    bunches = 2544;
+    lumi = 0.061293422;
 }
   if(run ==321432){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/13DB1478-B3EF-D24E-9DC4-3D014E4D3141.root");
@@ -6763,7 +6855,8 @@ lumi = 0.061293422;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/3A22B257-8F43-4241-9CF4-D1AC460D620D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/3B08D838-473A-8F48-8A77-A8A11EC9B2F3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/2514B323-3E51-B444-A680-7185DD690D65.root");
-lumi = 0.017829371;
+    bunches = 2544;
+    lumi = 0.017829371;
 }
   if(run ==321433){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260004/65545D3F-19CA-A844-A97B-BE6090FD08AD.root");
@@ -6793,7 +6886,8 @@ lumi = 0.017829371;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/0D35A54E-2CC1-124A-BF10-AB3CCAF04D36.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/CEBF9763-0BAB-F64F-BE60-13F55E0375BB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/1DC474A8-D3CA-1B40-90DA-0B1DA4EC1C77.root");
-lumi = 0.045957181;
+    bunches = 2544;
+    lumi = 0.045957181;
 }
   if(run ==321434){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/5D7162BB-515A-E747-8815-271D73544BEA.root");
@@ -6890,7 +6984,8 @@ lumi = 0.045957181;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/9BE856FC-9045-6E46-8F66-C23DC412DD2E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/FD452CF0-FF78-EA4E-9EF5-75D35E83AFB8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/4A4A9AF3-B289-EA4D-9039-97CD7A8F36E6.root");
-lumi = 0.194536537;
+    bunches = 2544;
+    lumi = 0.194536537;
 }
   if(run ==321436){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/8E98851C-371B-594F-A0A2-201FBC5CB13F.root");
@@ -6974,7 +7069,8 @@ lumi = 0.194536537;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/D4D060D8-1DD4-B749-8597-01A5591732B9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/C2B285A1-22D3-6745-BB45-CDED8E884FC7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/2040B845-5DB7-FD45-9421-658E238BED75.root");
-lumi = 0.148917537;
+    bunches = 2544;
+    lumi = 0.148917537;
 }
   if(run ==321457){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/F1ACF3F3-C009-184C-8D79-DE448756879D.root");
@@ -7237,7 +7333,8 @@ lumi = 0.148917537;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/0BE44FD1-70AE-0942-9F23-792ECC95DBD6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/3B1BB692-7601-EE4A-A3AB-DF857C4BDC06.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/0494C1CD-1DE2-AB4A-B11A-D3B5682FA105.root");
-lumi = 0.520015527;
+    bunches = 2544;
+    lumi = 0.520015527;
 }
   if(run ==321461){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/4C84B31B-15B7-5A49-8680-CB7DE7845B18.root");
@@ -7256,7 +7353,8 @@ lumi = 0.520015527;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/2EF500A5-39A3-A241-9087-9B4AF449FF63.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/99B02FB2-756B-9E46-AA12-78BA475C8E51.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/F0A49B57-A715-1F44-936E-347259BEBD21.root");
-lumi = 0.023178494;
+    bunches = 2544;
+    lumi = 0.023178494;
 }
   if(run ==321475){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/DE2CB133-FAF5-1949-B69B-90F25C7B1CDB.root");
@@ -7515,13 +7613,15 @@ lumi = 0.023178494;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/B711EE93-B302-7B41-B092-BCDD8BD4637C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/592C89D1-43CD-BB4B-BADD-FD73E58DA9ED.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/F30C6333-77EF-BA4A-95D2-F38A21E2C302.root");
-lumi = 0.511355016;
+    bunches = 2544;
+    lumi = 0.511355016;
 }
   if(run ==321709){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/485C1EC5-C905-5C4F-AEA7-843425D3660E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/BDE20382-0F5E-3A4B-B82D-8E48594447EE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/4E365E4D-4308-AE49-B16F-494AF5F4D27B.root");
-lumi = 0.0;
+    bunches = 2544;
+    lumi = 0.0;
 }
   if(run ==321710){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/AA835800-EE90-9449-9D00-964F94AAE1ED.root");
@@ -7537,7 +7637,8 @@ lumi = 0.0;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/B55BDF9B-BE3F-1A42-BDE4-8A8457DF350F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/2E707042-CF8A-8D43-A670-8E73BDA2E450.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/D5CBF76C-CCA4-7049-B0C7-659571DEBF47.root");
-lumi = 0.018536434;
+    bunches = 2544;
+    lumi = 0.018536434;
 }
   if(run ==321712){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/A401130B-7F99-484F-9565-8FF83B45D6C2.root");
@@ -7597,7 +7698,8 @@ lumi = 0.018536434;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/9A2ED4BE-67D5-064A-8D6D-C1BEAF88D8F6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/BBBFCDF9-09E3-284D-ADAA-0CBADE99F660.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/CF1DCFF1-2E05-CE46-9FBD-6840464084AF.root");
-lumi = 0.09713672;
+    bunches = 2544;
+    lumi = 0.09713672;
 }
   if(run ==321730){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260005/DF4ECDE7-105C-5A46-B1FF-F664C18590DC.root");
@@ -7666,7 +7768,8 @@ lumi = 0.09713672;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260005/D2A80369-3398-F746-BF23-FFE4CDDF2587.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260005/C6AB522E-807E-1F44-8AD1-D26E501C4A7A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260005/BA795E53-57DC-B445-A967-764DDEDD9049.root");
-lumi = 0.111201226;
+    bunches = 2544;
+    lumi = 0.111201226;
 }
   if(run ==321732){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/E780085D-E593-FE4E-8F27-F58519AF96C6.root");
@@ -7845,7 +7948,8 @@ lumi = 0.111201226;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/0C0B3963-53DB-D949-B4A1-B9C53DAFDBAA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260005/7BB755AF-7BFC-4646-A8EE-4AD684AE16B8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/393463E3-5414-534D-9214-2AFC02638349.root");
-lumi = 0.381649793;
+    bunches = 2544;
+    lumi = 0.381649793;
 }
   if(run ==321735){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/CAD231CB-9BD8-FC42-A53D-ADE7F297B76A.root");
@@ -7865,7 +7969,8 @@ lumi = 0.381649793;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/5BA169D4-70D9-C842-80D0-8B51BAE2F2D3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/5F018DBA-14C0-2E41-9904-0F512352E30E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/6096FE60-7489-4B47-B204-5153CA9A4F11.root");
-lumi = 0.025560538;
+    bunches = 2544;
+    lumi = 0.025560538;
 }
   if(run ==321755){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/A4D88DAB-4C83-8045-95EA-23E4BD45C8F8.root");
@@ -7987,7 +8092,8 @@ lumi = 0.025560538;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/A4689509-D354-6643-A252-3310D5668559.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/7A583369-B02E-1A4B-912E-565CAE135DFD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/C2C934CF-7AC2-EC46-8C12-5F99FF915034.root");
-lumi = 0.23167026;
+    bunches = 2544;
+    lumi = 0.23167026;
 }
   if(run ==321758){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/094ADB49-9DD0-FE42-B90A-39E234C5C280.root");
@@ -8018,13 +8124,15 @@ lumi = 0.23167026;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/2B04EBDA-742D-7940-8275-05842308D443.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/A67D2948-758E-B740-8DF6-64A5557ED25C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/FF47DEE7-2171-5347-9E0D-7B6163E93718.root");
-lumi = 0.048602927;
+    bunches = 2544;
+    lumi = 0.048602927;
 }
   if(run ==321759){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/08E13921-85AF-7246-A14C-888415ECB643.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/8C0443C3-08E8-9147-90E8-320D5657E93A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/BDFC6B2E-1744-A14F-9256-DC1744DEA5E3.root");
-lumi = 0.117832971;
+    bunches = 2544;
+    lumi = 0.117832971;
 }
   if(run ==321760){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/3DCEE57A-CB33-0B4A-B63B-0488C87FAAD5.root");
@@ -8103,7 +8211,8 @@ lumi = 0.117832971;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/B31BDB8C-FDC6-AE49-BDE3-A64ACDE604C0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/C7A5E938-2C51-5F4A-9372-69A066ABE071.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/23726D38-EC29-F94B-ABEE-0DC3E6C4EFD2.root");
-lumi = 0.165802612;
+    bunches = 2544;
+    lumi = 0.165802612;
 }
   if(run ==321773){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/5FCC3F03-7984-9A4D-A2AD-ABD9C081CD2E.root");
@@ -8127,7 +8236,8 @@ lumi = 0.165802612;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/524173E6-F690-8747-AE3F-47EF58CA0DA6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/7006CFCD-5084-6148-930E-BB10485264C3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/57BC650F-9F64-C14B-81EE-2DFC6A7999EF.root");
-lumi = 0.030032096;
+    bunches = 2544;
+    lumi = 0.030032096;
 }
   if(run ==321774){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/E6DBCB94-6061-D443-9804-59207DAC029B.root");
@@ -8162,7 +8272,8 @@ lumi = 0.030032096;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/2BEB8D3E-C1BF-F64A-8BC2-CD8B19BCCAF7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/33D8D56D-95DF-5441-BD48-4C0C4C6B8ECB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/2B359F41-9E39-5C4E-9D31-05DDAF6CBD72.root");
-lumi = 0.05250805;
+    bunches = 2544;
+    lumi = 0.05250805;
 }
   if(run ==321775){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/5A6BD98A-F547-1541-963E-574B0E44B860.root");
@@ -8177,7 +8288,8 @@ lumi = 0.05250805;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/C34C1040-AADA-DF41-8D73-A7CB356D4FAB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/9AB4E168-FAD2-0341-84B7-FEB52FBCFF3B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/65FF9D94-AA5C-1E43-A851-19F175A65C0B.root");
-lumi = 0.018290493;
+    bunches = 2544;
+    lumi = 0.018290493;
 }
   if(run ==321776){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/BB64C396-154A-AA46-B5E0-05CFCBCB009B.root");
@@ -8191,7 +8303,8 @@ lumi = 0.018290493;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/0A12467C-1DA0-E54D-AE73-1037242224EE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/FAD4CDA3-DD71-B64C-9677-97B8D103AB26.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/DE17058D-F783-5746-937B-2BB8E3EC3A9D.root");
-lumi = 0.0156595;
+    bunches = 2544;
+    lumi = 0.0156595;
 }
   if(run ==321777){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/B7F04210-7853-8847-8990-4D8A7784BA48.root");
@@ -8235,7 +8348,8 @@ lumi = 0.0156595;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/F6163063-794C-B345-920A-53743E7D2AD6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/42F70511-726D-AB43-86B0-E046F3909B6C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/6029368C-D5E6-0E41-BE3D-C635CEFE142E.root");
-lumi = 0.092960788;
+    bunches = 2544;
+    lumi = 0.092960788;
 }
   if(run ==321778){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/09685EDA-CFA7-D143-8EF4-340B6D7464AC.root");
@@ -8260,7 +8374,8 @@ lumi = 0.092960788;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/B74B3EEE-EFA1-9545-B1B4-1711E6D1A930.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/D151AB0A-190E-DC43-B84C-62F4D4927CC9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/5B16B279-65DF-7A46-9337-D1745F188897.root");
-lumi = 0.041011541;
+    bunches = 2544;
+    lumi = 0.041011541;
 }
   if(run ==321780){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/B9F64F74-DAD6-4644-B18C-D2C717FF0913.root");
@@ -8329,7 +8444,8 @@ lumi = 0.041011541;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/640FD493-6E0C-A841-8BDF-642D81090011.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/F36BB191-DBC9-C54C-889D-3E2FA74A3BA8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/89188B52-DA8B-7E45-AAAA-554C9433304B.root");
-lumi = 0.135394805;
+    bunches = 2544;
+    lumi = 0.135394805;
 }
   if(run ==321781){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/2E4EDF17-506D-FB49-81AC-5565090E2313.root");
@@ -8396,7 +8512,8 @@ lumi = 0.135394805;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/CDBF789A-121C-D143-8D4F-E0FFA453A7C1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/7536D229-C96A-4345-8F57-4EB3C06FDAA3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/53C08280-0CE6-D941-8DAE-7EBC1E753F4F.root");
-lumi = 0.121502506;
+    bunches = 2544;
+    lumi = 0.121502506;
 }
   if(run ==321794){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/4C6D6BDD-56A0-BF47-AAB7-BF9627A5EA94.root");
@@ -8443,11 +8560,13 @@ lumi = 0.121502506;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/F5BF179F-5108-9F4F-87C5-D451E029C560.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/86B25ECF-BF7A-1445-9E52-F633D049AC26.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260006/F7F8D547-CE17-EF43-9A6F-096C01F8BFC9.root");
-lumi = 0.070964352;
+    bunches = 2544;
+    lumi = 0.070964352;
 }
   if(run ==321796){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/D0AE0CAC-582E-3D43-A81E-82BDE5F47941.root");
-lumi = 0.024321101;
+    bunches = 2544;
+    lumi = 0.024321101;
 }
   if(run ==321813){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/29960F20-1A1E-0642-9249-2D2163E90471.root");
@@ -8547,14 +8666,16 @@ lumi = 0.024321101;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/ED909FFE-6619-194D-9776-8D1DBC6A915F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270002/942F36FE-830B-424E-8EDC-238A4E79D5F5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270002/3C7E5729-8088-8F4B-8698-913348DBC812.root");
-lumi = 0.154598447;
+    bunches = 2544;
+    lumi = 0.154598447;
 }
   if(run ==321815){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/5DAE7A0C-FA15-C044-80F0-71F20D240E93.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/FE7795CE-C910-D748-A50E-A78C927A0A2A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/ED909FFE-6619-194D-9776-8D1DBC6A915F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/8F3CC7DB-6650-6446-B162-56D02F9F40E2.root");
-lumi = 0.005506711;
+    bunches = 2544;
+    lumi = 0.005506711;
 }
   if(run ==321817){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/55D377CA-9E7C-6F48-989B-501433C58BB2.root");
@@ -8628,7 +8749,8 @@ lumi = 0.005506711;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/C32503CD-38C9-9B48-8B7C-60EB14AD3A4C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/10CB3CE1-7FCB-6845-90C1-C44D59067A90.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/F048EDCC-8D8E-F745-B9A4-BACD0BE660C1.root");
-lumi = 0.159681213;
+    bunches = 2544;
+    lumi = 0.159681213;
 }
   if(run ==321818){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/63C59F49-B9CF-9847-A30B-C3703E0D20B1.root");
@@ -8715,7 +8837,8 @@ lumi = 0.159681213;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/E45A9704-6EEF-CE44-95A2-8C5C5642804F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/8D4C33E8-223F-0A4E-88AF-F5FA4E60DD4C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/861154F3-8FF7-1D4F-A031-45C6C75F2A6E.root");
-lumi = 0.148433668;
+    bunches = 2544;
+    lumi = 0.148433668;
 }
   if(run ==321820){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/38CB1C9B-B22D-6048-9356-A68F99E82C26.root");
@@ -8741,7 +8864,8 @@ lumi = 0.148433668;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/85515552-DE53-7546-AFA5-13B8DC7BD625.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/8F43516A-0276-8843-A439-074ABFB826B4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/699F084C-C102-F04E-952E-2C861778F772.root");
-lumi = 0.035161149;
+    bunches = 2544;
+    lumi = 0.035161149;
 }
   if(run ==321831){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/D449034E-22FE-7A43-A5E3-98D366BCAB93.root");
@@ -8887,7 +9011,8 @@ lumi = 0.035161149;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270003/BA45AFC0-16E2-7341-955B-A1E43F7814D6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/44C388F4-9668-984E-A879-C6A4EB262308.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/5E6F155D-0E41-294D-9F60-5BC6C153CA6F.root");
-lumi = 0.267359981;
+    bunches = 2544;
+    lumi = 0.267359981;
 }
   if(run ==321832){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/3F600484-00EF-7A4E-B635-BC9B26FE4049.root");
@@ -8955,7 +9080,8 @@ lumi = 0.267359981;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/3DD61F25-008F-8045-9D1A-F0816BF2F1F1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/F1731E74-4C28-184A-81C4-9D06DFD36CB9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/A06163F4-388C-E44B-BC2E-694CF15AD384.root");
-lumi = 0.125296648;
+    bunches = 2544;
+    lumi = 0.125296648;
 }
   if(run ==321833){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/D709A876-AF9F-CB40-B5F1-1038A52A1940.root");
@@ -9000,7 +9126,8 @@ lumi = 0.125296648;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/AEF64649-BAF5-624E-A0F6-1ABB6D0DF876.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/0070C496-E21D-8647-B66E-3F4989DD3FAB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/C004D0BD-FD0D-524A-86A1-BE7E3ED1B812.root");
-lumi = 0.079791154;
+    bunches = 2544;
+    lumi = 0.079791154;
 }
   if(run ==321834){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/33589D66-433C-2A4A-B570-A199BC907221.root");
@@ -9036,7 +9163,8 @@ lumi = 0.079791154;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/356C0FF2-CBD9-A14B-9EAC-BDE3E1084BCD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/F14E4C16-8E41-5C4C-8EA4-CBDCB8ED56B1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/D0CE6BBE-5808-0444-A1B9-36474B34540E.root");
-lumi = 0.054271257;
+    bunches = 2544;
+    lumi = 0.054271257;
 }
   if(run ==321879){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/7E09A59F-63EA-1C4E-95A4-32E8DD3665E0.root");
@@ -9117,7 +9245,8 @@ lumi = 0.054271257;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/417FD5FD-6032-9945-B797-4CF6190CA7C0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280003/CE1CEC1A-91C8-D449-9BD6-269755D384F1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280003/C7ABBCE1-3671-474E-97EB-C1F9620C56F7.root");
-lumi = 0.11483151;
+    bunches = 2544;
+    lumi = 0.11483151;
 }
   if(run ==321880){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/6748FF98-AA37-9B45-8380-C8A8DA55A6EA.root");
@@ -9142,7 +9271,8 @@ lumi = 0.11483151;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/A64FE088-F407-004E-B639-59D5EA745494.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/25C44085-8FF5-9741-9809-5F7C3ACF66B2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/25CA3D2F-31B4-5B46-9345-EA9A9385BF64.root");
-lumi = 0.044945696;
+    bunches = 2544;
+    lumi = 0.044945696;
 }
   if(run ==321887){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/49BEA324-0AD4-5E43-97E3-AD67FE21F20E.root");
@@ -9300,7 +9430,8 @@ lumi = 0.044945696;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/AFA32AA6-FCAF-3746-9878-DA48DEED62A9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/24B9DCAC-C943-F445-ADC7-D3E07776FB48.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/93C1F815-3C9C-6A47-AF7F-54480DDC107F.root");
-lumi = 0.298695898;
+    bunches = 2544;
+    lumi = 0.298695898;
 }
   if(run ==321908){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/56085189-8E25-4B44-AFFD-83F47F228ABD.root");
@@ -9396,7 +9527,8 @@ lumi = 0.298695898;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/E04E3F14-8D75-924D-8E41-39FA0988A8AD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/C1596BE2-B205-944E-9A2A-74080E1E3DD0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/4C13284C-2576-4240-805E-2E3FC740E8C8.root");
-lumi = 0.156875137;
+    bunches = 2544;
+    lumi = 0.156875137;
 }
   if(run ==321909){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/508F7469-CECA-7C48-938F-513B0A2F8459.root");
@@ -9583,7 +9715,8 @@ lumi = 0.156875137;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/369FEEBB-D4C0-8046-8E3D-A02A2A97864A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/3AE390F9-59C0-E245-8FCB-B057ED869724.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/8E17117C-BABE-CE4E-9257-93CBD18821C4.root");
-lumi = 0.367036145;
+    bunches = 2544;
+    lumi = 0.367036145;
 }
   if(run ==321917){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/733C1E5A-B4C6-B14C-B224-12A1971F71FF.root");
@@ -9730,12 +9863,14 @@ lumi = 0.367036145;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/9AD6A987-2235-5946-A541-25E105B58606.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/1D5F026C-F4DC-354D-AAC3-D1DEBC8224B7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/3C221A96-6780-6B42-B6FF-0F9CE9107F93.root");
-lumi = 0.284512168;
+    bunches = 2544;
+    lumi = 0.284512168;
 }
   if(run ==321919){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/27BA2943-1CC6-234E-A796-E370EEB13110.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/33B8B58F-806C-3040-95DD-B59EA7AFE9F7.root");
-lumi = 0.001811869;
+    bunches = 2544;
+    lumi = 0.001811869;
 }
   if(run ==321933){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/CB0C761E-C9CE-D64E-B864-5623C22E9081.root");
@@ -9806,7 +9941,8 @@ lumi = 0.001811869;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/56BC0BE0-BB97-6A42-A461-FC6B35B8E787.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/EF4999D1-CE15-6F4E-B44B-FAAAD87595D3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/4460E743-D376-4C41-96FE-C383C41966DD.root");
-lumi = 0.109860591;
+    bunches = 2544;
+    lumi = 0.109860591;
 }
   if(run ==321960){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/246AB867-64F7-AC44-A0B9-4A7DA6F264AD.root");
@@ -9817,7 +9953,8 @@ lumi = 0.109860591;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/D7D72C1E-4FE6-A94F-9428-D66768C7C6D8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/86D65B8D-1A4D-974D-ADD0-51E3F1C3DD5A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/94B4C4BA-6F16-E842-9B54-DC446CDADC63.root");
-lumi = 0.008432003;
+    bunches = 2544;
+    lumi = 0.008432003;
 }
   if(run ==321961){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/6AA4CEC3-6646-1043-A5C2-66CDA75668FF.root");
@@ -9907,7 +10044,8 @@ lumi = 0.008432003;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/385A8749-1959-4543-A8B0-2804C6BBB744.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/8F9A292A-02A7-E840-9303-2C55DEFD8C43.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/0F1DFF9C-6205-CC4A-AA11-B77B1B746911.root");
-lumi = 0.142218285;
+    bunches = 2544;
+    lumi = 0.142218285;
 }
   if(run ==321973){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/6AA24920-09CA-B14D-B35C-4FBD0C333694.root");
@@ -10106,7 +10244,8 @@ lumi = 0.142218285;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/7041E4A6-FEC9-494C-AA80-25BE75514F0C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/A56271C6-DBB6-4D44-B773-6B6D66B412B2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/444C9C28-B27D-1E4F-8635-EA706869A78A.root");
-lumi = 0.38708156;
+    bunches = 2544;
+    lumi = 0.38708156;
 }
   if(run ==321975){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/4B400676-E459-C946-A0C7-FC56F5F85EBB.root");
@@ -10183,7 +10322,8 @@ lumi = 0.38708156;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/30623437-C368-B84A-9D63-40F97E6BD8CB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/83652A90-8905-3042-B012-89BEE9DA0A11.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/EB200B27-5DF8-E54F-849E-9FF8BACDD9A6.root");
-lumi = 0.157500565;
+    bunches = 2544;
+    lumi = 0.157500565;
 }
   if(run ==321988){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280002/EC5390FE-9B73-C844-9041-CF3E2DAB0F1E.root");
@@ -10419,7 +10559,8 @@ lumi = 0.157500565;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/B74BDCC0-E143-3348-9310-4A9BC2488810.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/00000/B1455889-5D11-CF4C-BF5C-25F9517EC6EE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/1ECC0154-9688-6248-ADF5-7B9180CB7CCF.root");
-lumi = 0.441882174;
+    bunches = 2544;
+    lumi = 0.441882174;
 }
   if(run ==321990){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/75F6D874-BBF8-5D48-AEBA-138CFAABCD64.root");
@@ -10477,7 +10618,8 @@ lumi = 0.441882174;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/5A7E7DAD-B9E8-8640-9DC6-833F0E153340.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/E65EF085-7585-5E4A-8D12-EA563A26B6FE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/8E17117C-BABE-CE4E-9257-93CBD18821C4.root");
-lumi = 0.087835381;
+    bunches = 2544;
+    lumi = 0.087835381;
 }
   if(run ==322013){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/0522FA7F-607B-0E44-9001-80EB70DC6393.root");
@@ -10485,7 +10627,8 @@ lumi = 0.087835381;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/08FEC6DD-8AB9-014A-90C9-89697B792CA1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/300B592F-7DFD-FD47-A1CB-422B424E55E1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/3AB0FAA6-BD5A-9944-ADE0-6701EF1ED1DF.root");
-lumi = 0.002080884;
+    bunches = 2544;
+    lumi = 0.002080884;
 }
   if(run ==322014){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/9B4BFBE7-8F20-544A-BADC-CD8E495C15EB.root");
@@ -10493,7 +10636,8 @@ lumi = 0.002080884;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/8F0FED9F-E632-5143-9F08-E524551ECD13.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/3AB0FAA6-BD5A-9944-ADE0-6701EF1ED1DF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/45E4E419-EC78-024D-92BA-E41AF4E20DEE.root");
-lumi = 0.007461762;
+    bunches = 2544;
+    lumi = 0.007461762;
 }
   if(run ==322022){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/120829B5-4781-8E44-A648-4EB7500C62D6.root");
@@ -10731,7 +10875,8 @@ lumi = 0.007461762;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/D7342344-61B2-E84E-9D97-E3BD6747F41A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/650A3849-A338-7E42-9D2F-6C4B4D925652.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/CC040E5C-58BA-0A4C-966B-21AA9CC50D84.root");
-lumi = 0.494881308;
+    bunches = 2544;
+    lumi = 0.494881308;
 }
   if(run ==322040){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/E8A0BA2C-F855-6A4D-B0F5-1504099B4BB0.root");
@@ -10746,7 +10891,8 @@ lumi = 0.494881308;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/1A93CB97-9683-DA42-AE16-0784940E53FA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/6580E1EF-87B5-714F-99A7-2A454F47A903.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260001/78E671EA-A568-4444-9D53-9668203B4D5C.root");
-lumi = 0.015485282;
+    bunches = 2544;
+    lumi = 0.015485282;
 }
   if(run ==322057){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/086BCB69-6132-1A4E-B395-38E3BAFEEFEE.root");
@@ -10761,7 +10907,8 @@ lumi = 0.015485282;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/230000/DB12001D-0CDF-1E4A-9362-2990133F90CC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/5F208D4A-4051-A84B-AB38-6C893A41B323.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/C5BE1E02-033B-1B42-B126-92197D5790AD.root");
-lumi = 0.010016614;
+    bunches = 2544;
+    lumi = 0.010016614;
 }
   if(run ==322068){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/BB277D48-5947-4148-A11C-F3E6DF202756.root");
@@ -10909,7 +11056,8 @@ lumi = 0.010016614;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/368793EC-6790-8741-9F37-67271F4FD12C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/D6BA6598-60A2-7249-B193-70CE4682E630.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/A8F20536-2D5E-3A48-853E-1C82EEEA9BB2.root");
-lumi = 0.251611019;
+    bunches = 2544;
+    lumi = 0.251611019;
 }
   if(run ==322079){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/D6CAF3EC-0403-A146-A347-F199E43FA167.root");
@@ -11014,7 +11162,8 @@ lumi = 0.251611019;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/A8C5A89D-4F3C-2544-AE8D-B061EAEB0DFB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/2F3F4977-75B8-3D4E-8633-B7CF1C68786C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/A0D63FC5-DF8A-3F42-B343-4120BE6364F1.root");
-lumi = 0.163922979;
+    bunches = 2544;
+    lumi = 0.163922979;
 }
   if(run ==322088){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/D7CAB5A0-CEF2-5D4C-9D2F-F20C5A11111F.root");
@@ -11108,7 +11257,8 @@ lumi = 0.163922979;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/9382115B-6A0C-8947-9FAD-3499432F7B31.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/DBB95279-A001-B64D-AE5E-1882B148EBE5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/78AF63EC-8DCB-B547-A1AB-05D07180B4A6.root");
-lumi = 0.187795552;
+    bunches = 2544;
+    lumi = 0.187795552;
 }
   if(run ==322106){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/A4B68E4A-B2F4-AF40-AFE7-E46A9133E55F.root");
@@ -11274,7 +11424,8 @@ lumi = 0.187795552;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/6065F479-93DD-2146-A62B-9D2CBB6EBFE2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/E687AB60-1014-7349-9259-997BFFED01CB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/89FD9E6F-D070-3745-BBC1-819296105D97.root");
-lumi = 0.30396522;
+    bunches = 2544;
+    lumi = 0.30396522;
 }
   if(run ==322113){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/BCF81B61-C2E2-794D-AD8A-FD6EB1CF6E6B.root");
@@ -11308,7 +11459,8 @@ lumi = 0.30396522;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/24ABA2B2-10C4-3A42-BE42-3E44413C2698.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/22C67DB5-5FD5-3247-B4DA-33D43C4A7530.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/9172CAF0-A270-0145-90D9-66025D23E88D.root");
-lumi = 0.044360555;
+    bunches = 2544;
+    lumi = 0.044360555;
 }
   if(run ==322118){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/ED1624F4-FB6F-BE4C-B1FA-148A94787FBC.root");
@@ -11466,7 +11618,8 @@ lumi = 0.044360555;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/1FDB7DC7-9854-4042-AE90-8A61C32BDC9A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/588C96EA-1933-314E-A95D-BB90E8981670.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/6E88D70B-8888-E14A-84BC-7D11FEDA1F95.root");
-lumi = 0.292715284;
+    bunches = 2544;
+    lumi = 0.292715284;
 }
   if(run ==322179){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/AAE2C5C1-48BD-EE47-8BEA-811B28E1FD87.root");
@@ -11732,7 +11885,8 @@ lumi = 0.292715284;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/96F53EF9-2CA3-1142-BF38-F279D8F40E0C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/2A66F09C-2B66-B24A-8AD5-219F5D5610B6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/335124E8-E806-8646-A35A-2EA262605385.root");
-lumi = 0.506657555;
+    bunches = 2544;
+    lumi = 0.506657555;
 }
   if(run ==322201){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110002/CDA9538A-E58E-B04E-B211-8DE82EBCCFC3.root");
@@ -11790,7 +11944,8 @@ lumi = 0.506657555;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110002/60C64FF3-A418-304F-AC74-5C71D977F0AD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110002/192CFEF7-6EAF-8640-A9F2-D9264E17C79A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110002/9E6E5E86-D44B-1B45-A977-554728FFF7EB.root");
-lumi = 0.091571207;
+    bunches = 2544;
+    lumi = 0.091571207;
 }
   if(run ==322204){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/18317585-1DC0-AA4F-8788-AF6E3BD6F676.root");
@@ -11977,7 +12132,8 @@ lumi = 0.091571207;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/078052E8-B96F-4449-80B1-56B7FCC92042.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/78AF63EC-8DCB-B547-A1AB-05D07180B4A6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/408982CF-6D36-9048-A2F4-BBA0A38CE3DA.root");
-lumi = 0.336860248;
+    bunches = 2544;
+    lumi = 0.336860248;
 }
   if(run ==322222){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/F5FFC5BE-ECBF-DE40-9FA9-F0ECB696C141.root");
@@ -12048,7 +12204,8 @@ lumi = 0.336860248;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/9C24E911-F59A-3A48-A1ED-F5E655BD35E8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/E04BFE30-D8AD-5349-87BA-C281477D97C0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/07EA4A5D-0CA3-7E46-B300-4231C7A6D616.root");
-lumi = 0.100411114;
+    bunches = 2544;
+    lumi = 0.100411114;
 }
   if(run ==322252){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/ADDD2540-DF45-B347-B397-93E381BA9204.root");
@@ -12298,7 +12455,8 @@ lumi = 0.100411114;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/9C1C1B87-C5F7-E04B-979B-7D56C1D00566.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/04AC1766-76E0-E24B-89AF-9730E2584E89.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/730CE657-022C-154A-8995-93AAD9462327.root");
-lumi = 0.452834594;
+    bunches = 2544;
+    lumi = 0.452834594;
 }
   if(run ==322317){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/48AD5DC3-5EA9-054B-9901-BD5C25FDB9D9.root");
@@ -12321,7 +12479,8 @@ lumi = 0.452834594;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/7CC3687C-4A49-2A43-9639-27CE10A62552.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/C2F1AAF5-180D-264A-9198-D72CD60352C0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/885017C2-8A9C-2348-90BF-FB9BED84FA72.root");
-lumi = 0.021505029;
+    bunches = 2544;
+    lumi = 0.021505029;
 }
   if(run ==322319){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/C7674728-1EA4-8148-9331-8BD1BA7F14C7.root");
@@ -12362,7 +12521,8 @@ lumi = 0.021505029;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/F756EDB9-C8A6-F845-B061-6166DC769E9C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/43DF6595-EF3B-1749-8235-A0697E65530E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/284BEFB4-D296-C54E-981E-6D2B6AAA15E5.root");
-lumi = 0.059691888;
+    bunches = 2544;
+    lumi = 0.059691888;
 }
   if(run ==322322){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/C678EAF7-C635-A942-ACF2-1DE7DAE3F1BD.root");
@@ -12534,7 +12694,8 @@ lumi = 0.059691888;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/EBC08F92-B628-9540-8725-B37A6C571D29.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/16404783-48BE-4A45-81A5-3A99126213AB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/CB38DBF9-898B-5843-809B-29EC9961FF81.root");
-lumi = 0.348217091;
+    bunches = 2544;
+    lumi = 0.348217091;
 }
   if(run ==322324){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/817F6C19-2FE9-0E41-96EE-13236F925E75.root");
@@ -12585,7 +12746,8 @@ lumi = 0.348217091;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/A66E5BE6-5C2F-0240-A414-9362C22010BD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/3AE390F9-59C0-E245-8FCB-B057ED869724.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/CB38DBF9-898B-5843-809B-29EC9961FF81.root");
-lumi = 0.075479169;
+    bunches = 2544;
+    lumi = 0.075479169;
 }
   if(run ==322332){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/92071577-519B-CC44-B266-3237A52093A5.root");
@@ -12771,7 +12933,8 @@ lumi = 0.075479169;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/6EE9461B-FC71-7144-94F8-A3AD82581D20.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/21FEFBBE-0E7B-2A4D-A207-917AB49701A2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/E1655977-576F-974F-B197-8898546015F4.root");
-lumi = 0.338665637;
+    bunches = 2544;
+    lumi = 0.338665637;
 }
   if(run ==322348){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/4AF3C43A-487E-B646-90D5-641964AF8965.root");
@@ -13007,7 +13170,8 @@ lumi = 0.338665637;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/BBC95DBD-AF71-DC41-9633-76BD1C7C6D5D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/2410000/40FADFD3-1A14-A844-B13E-712A83CCABED.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/2410000/B306657C-F8B7-CA4C-8DDB-AC5F83EBB17E.root");
-lumi = 0.446103492;
+    bunches = 2544;
+    lumi = 0.446103492;
 }
   if(run ==322355){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110003/D6DDF69E-3C2C-CF4B-8348-BD39DD921238.root");
@@ -13037,7 +13201,8 @@ lumi = 0.446103492;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110003/B9A72476-1A08-6D4C-A71C-E0F768CAAA53.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110003/C5823910-0509-6449-A1C6-88A07F28F9C0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110003/8943E9AB-FFDA-E141-B09B-A8C55E883583.root");
-lumi = 0.036927325;
+    bunches = 2544;
+    lumi = 0.036927325;
 }
   if(run ==322356){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110003/3F98BB84-4B97-8448-8037-835B7B8F67F1.root");
@@ -13168,7 +13333,8 @@ lumi = 0.036927325;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/19B35A65-37B2-EA47-B418-8430E1755BF7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/F3283689-192A-3D42-A261-35B8135C2606.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/B7040DE8-2DCB-414B-9412-A5C06ADEC198.root");
-lumi = 0.252362039;
+    bunches = 2544;
+    lumi = 0.252362039;
 }
   if(run ==322381){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/EB754BC8-DF3C-4848-9CF8-760D73648AC5.root");
@@ -13284,7 +13450,8 @@ lumi = 0.252362039;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/F57C9DFD-920B-994A-85AD-08983D85A3DA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/C5BE1E02-033B-1B42-B126-92197D5790AD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/9087DA89-E33F-3847-998E-AF3BCE72AC2C.root");
-lumi = 0.193060196;
+    bunches = 2544;
+    lumi = 0.193060196;
 }
   if(run ==322407){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/CBF16685-EB01-F14D-9544-01E7206594B9.root");
@@ -13400,7 +13567,8 @@ lumi = 0.193060196;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/89EE45A4-5384-A745-9E59-774B8F4681EC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/701DC595-5E9C-7E44-9F4B-B0C73AAB9EE2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/68D87D03-50F3-2543-AA09-4DB9D1C0E578.root");
-lumi = 0.1855113;
+    bunches = 2544;
+    lumi = 0.1855113;
 }
   if(run ==322430){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/A5BB9510-42B6-F84B-89FF-259A9D3FD741.root");
@@ -13543,7 +13711,8 @@ lumi = 0.1855113;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/8D38BEC4-71A2-C049-AE38-2833FD93DF2C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280000/2703B6F2-1D61-D14A-8E3B-215CFA480091.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/68D87D03-50F3-2543-AA09-4DB9D1C0E578.root");
-lumi = 0.253671922;
+    bunches = 2544;
+    lumi = 0.253671922;
 }
   if(run ==322431){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/2641A289-FE02-B84E-AFA7-65CC77A8513B.root");
@@ -13676,7 +13845,8 @@ lumi = 0.253671922;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/854DDFDB-46AC-184C-B32F-3294DBEBF1D2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/71F14563-51B1-3742-B829-10121421B56D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/719E28F8-039A-EA48-84B3-7EE59DE61D47.root");
-lumi = 0.248424047;
+    bunches = 2544;
+    lumi = 0.248424047;
 }
   if(run ==322480){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/53B247CC-118E-5643-B43D-AEEB47AF3538.root");
@@ -13739,19 +13909,23 @@ lumi = 0.248424047;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/4F3444A5-6E07-4C4B-A924-42BFAD2DE3C3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/ED050687-919A-3D4D-B526-6CF51806694A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/F42B0D00-A21F-EF45-9B22-DF3450CD2528.root");
-lumi = 0.118078912;
+    bunches = 2544;
+    lumi = 0.118078912;
 }
   if(run ==322483){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/D5E53E80-81E6-5A4E-9947-FEA17D3FFE2B.root");
-lumi = 1.776e-05;
+    bunches = 2544;
+    lumi = 1.776e-05;
 }
   if(run ==322485){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/D5E53E80-81E6-5A4E-9947-FEA17D3FFE2B.root");
-lumi = 8.28e-06;
+    bunches = 2544;
+    lumi = 8.28e-06;
 }
   if(run ==322487){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/BEAB7795-5D95-E44D-B901-F5F1CE6A041E.root");
-lumi = 9.17e-07;
+    bunches = 2544;
+    lumi = 9.17e-07;
 }
   if(run ==322492){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/0D31B8CD-1D22-4847-8CDD-E392C9FEBF9A.root");
@@ -13900,14 +14074,16 @@ lumi = 9.17e-07;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/8444CACC-1D75-3149-82C7-355E00EE3F42.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/09657AB8-0E67-6A40-9068-B4FE0052A0FA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/1FDB7DC7-9854-4042-AE90-8A61C32BDC9A.root");
-lumi = 0.312060735;
+    bunches = 2544;
+    lumi = 0.312060735;
 }
   if(run ==322510){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/3C637847-88D3-0B42-8DB0-416C95D816A3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/F572D87A-7C02-BE4E-9C1B-3850459768DB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/6A1103A4-AFA5-6B47-B7FC-374DB825A46B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/01B97A6E-AFD3-C040-9DD4-55AB9681A27B.root");
-lumi = 0.003136022;
+    bunches = 2544;
+    lumi = 0.003136022;
 }
   if(run ==322599){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/5FA225F6-2818-D749-8E0C-83999592A924.root");
@@ -13971,7 +14147,8 @@ lumi = 0.003136022;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/98546DF7-8BDD-C14C-8BF2-9B7150C7E1C3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/5F0C2174-C4BA-2E43-B659-E85AD2ECAE35.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/E565C161-A0BB-6B43-8B26-C9267DFB2C06.root");
-lumi = 0.102213037;
+    bunches = 2544;
+    lumi = 0.102213037;
 }
   if(run ==322602){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/62C8B228-9CFB-3D48-9FF1-B1D5123A00F1.root");
@@ -13991,12 +14168,14 @@ lumi = 0.102213037;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/3B1501AD-E15D-2244-A029-7854D4D275AB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/9F065030-9317-1A42-B567-DCA362162329.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/E79F6B65-80AE-E246-84F4-07AC2B2951F6.root");
-lumi = 0.025928923;
+    bunches = 2544;
+    lumi = 0.025928923;
 }
   if(run ==322603){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/925AF94D-6062-4143-8A5D-961F2D7808E5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/E67BD21A-FC71-4F4A-A653-0E8C1AC89422.root");
-lumi = 0.002897244;
+    bunches = 2544;
+    lumi = 0.002897244;
 }
   if(run ==322605){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/E7E29C16-A089-FE44-B8FD-7085F7244EE7.root");
@@ -14040,7 +14219,8 @@ lumi = 0.002897244;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/44A12810-CBFD-F640-8187-09BE8F2CF2A3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/33618B58-9049-144E-81C5-B404CAF99C1F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/B505D685-50B3-2D4C-A2CF-2616D44D24FD.root");
-lumi = 0.096389256;
+    bunches = 2544;
+    lumi = 0.096389256;
 }
   if(run ==322616){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/B8A0E80D-6359-9346-B323-ABE0073A92B2.root");
@@ -14054,7 +14234,8 @@ lumi = 0.096389256;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/7DF8AF81-481B-7742-9BF5-C22C8EEC8FE7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/9D721078-7881-1745-B6A2-59AE2E31200C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/735311C1-A3D6-5249-96E5-2DA2DFBD4FC7.root");
-lumi = 0.019225995;
+    bunches = 2544;
+    lumi = 0.019225995;
 }
   if(run ==322617){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/D27E991E-8254-964B-9FD6-3F49583622AA.root");
@@ -14137,7 +14318,8 @@ lumi = 0.019225995;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/5223E741-73AB-124B-88A4-46EE76957944.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/AFCAE8E8-0DC4-1642-9CC6-2798960593B8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/3E49DA52-4CF7-044B-A521-8C79F79DBA72.root");
-lumi = 0.14714628;
+    bunches = 2544;
+    lumi = 0.14714628;
 }
   if(run ==322625){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/683AF509-036B-9F4C-B720-C324AD071091.root");
@@ -14323,7 +14505,8 @@ lumi = 0.14714628;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/0467FC1F-8592-DE43-B276-6278209369BB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/F9CC3803-7760-4B44-8961-EE70771BC9FB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/F0C42932-FD7E-BF48-A4E3-A871CBB8487A.root");
-lumi = 0.363416712;
+    bunches = 2544;
+    lumi = 0.363416712;
 }
   if(run ==322633){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/B4E99499-1E92-AB40-9AD0-F6B179F70E22.root");
@@ -14355,13 +14538,15 @@ lumi = 0.363416712;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/FB3A9A64-AB3B-704B-848F-8C56281B5D6F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/8BF12E45-15CE-A94B-8392-6AEC90F7C525.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/E40629A8-EC2C-1C41-AD56-C084E3FC8BD9.root");
-lumi = 0.055370829;
+    bunches = 2544;
+    lumi = 0.055370829;
 }
   if(run ==323413){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/518A4062-2A30-E045-9FC3-37292951CB33.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/2542B117-7CA5-8444-8935-1704BF91DAA4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/645EE94F-372B-2D44-B3A5-251DCC6362CD.root");
-lumi = 0.0;
+    bunches = 1214;
+    lumi = 0.0;
 }
   if(run ==323414){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270003/09541659-505C-5A4F-B1C8-FB4C96932ECF.root");
@@ -14374,7 +14559,8 @@ lumi = 0.0;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270003/46177D03-D006-DE4E-B024-7D73E25EFD75.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/F6E26649-F562-0246-A93A-A977CD09F5E0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/54DFE81F-C259-E24A-9C97-4C4A3FFADFB3.root");
-lumi = 0.013496386;
+    bunches = 1214;
+    lumi = 0.013496386;
 }
   if(run ==323416){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270003/A9721BF7-9F14-8B41-BFA0-C5F3503CECF8.root");
@@ -14393,7 +14579,8 @@ lumi = 0.013496386;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270003/0F0BAF11-86C9-B248-BFD5-70C908AF4D91.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270003/5BF8F5B3-93EE-7D42-B5FE-88AD1341058C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/81A3A83E-0401-E44E-BA51-F2569EBDA731.root");
-lumi = 0.018955624;
+    bunches = 1214;
+    lumi = 0.018955624;
 }
   if(run ==323417){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/2542B117-7CA5-8444-8935-1704BF91DAA4.root");
@@ -14401,7 +14588,8 @@ lumi = 0.018955624;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/07EBE4E8-ADC7-DB47-AE63-21C768E3F7F4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/56B6D439-F1F1-474A-B3EF-2D346F233AFF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/E2BD3EF1-B777-3D40-B31B-342ED9617F5F.root");
-lumi = 0.006037757;
+    bunches = 1214;
+    lumi = 0.006037757;
 }
   if(run ==323418){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/2542B117-7CA5-8444-8935-1704BF91DAA4.root");
@@ -14413,7 +14601,8 @@ lumi = 0.006037757;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/3EB0A585-3750-804C-BBD2-72E292F74C77.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/4F230F1A-38D8-CD46-8F39-097EDCF7ADB5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/620181EB-94F2-D14A-8FC9-E7E03F8A9CCC.root");
-lumi = 0.009131294;
+    bunches = 1214;
+    lumi = 0.009131294;
 }
   if(run ==323419){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/80CD79CB-0160-7348-BB1A-3D118C39702F.root");
@@ -14427,24 +14616,28 @@ lumi = 0.009131294;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/8D135714-B228-264F-97F2-A57EA6D5910D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/FA2CE6D8-CACB-7843-AF7B-22C32A63A1A6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/25788C3C-EB6F-F04E-BE75-044037AFF86D.root");
-lumi = 0.010415914;
+    bunches = 1214;
+    lumi = 0.010415914;
 }
   if(run ==323420){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/A752BB4C-3B8D-A544-B7E6-DF1E74B38901.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/70FDA1B7-6D14-2D45-83FF-F9D0AE3FA678.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/B781F7D9-5036-EA4B-ABC3-51F772DBE0C5.root");
-lumi = 0.002859615;
+    bunches = 1214;
+    lumi = 0.002859615;
 }
   if(run ==323421){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/B781F7D9-5036-EA4B-ABC3-51F772DBE0C5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/29F7A3ED-13BA-8543-A565-029DBD8E0F5B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/D15AF289-8B3C-2047-9217-081C3AB86004.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/F8CA4DE9-398C-2749-9A2D-CC10672BF1DC.root");
-lumi = 0.002787186;
+    bunches = 1214;
+    lumi = 0.002787186;
 }
   if(run ==323422){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/2542B117-7CA5-8444-8935-1704BF91DAA4.root");
-lumi = 69.776434246;
+    bunches = 1214;
+    lumi = 69.776434246;
 }
   if(run ==323423){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/EC99BA9F-18FB-F141-AED4-E2736E9B512C.root");
@@ -14466,7 +14659,8 @@ lumi = 69.776434246;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/F6E26649-F562-0246-A93A-A977CD09F5E0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/F4A52A33-EC36-7748-8F7C-7A2C5FC868D7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/D9BC1FA3-45D7-1345-A41F-95EF1338D950.root");
-lumi = 0.022688383;
+    bunches = 1214;
+    lumi = 0.022688383;
 }
   if(run ==323470){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/0EDE0962-79EA-F045-9C18-90A34B43631F.root");
@@ -14531,7 +14725,8 @@ lumi = 0.022688383;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/AA334FC6-D2DC-E34C-B4E6-512EF089BA67.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/636C886E-0406-7A4A-BE8B-194AB09524EB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/42B6AC54-1868-D947-941D-59BA355B56C1.root");
-lumi = 0.089710431;
+    bunches = 2544;
+    lumi = 0.089710431;
 }
   if(run ==323471){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/90B048BB-28D1-2644-8802-C95A767071E2.root");
@@ -14575,7 +14770,8 @@ lumi = 0.089710431;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/CFA42677-86DE-5348-9D76-2DF814EABF03.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/484B3591-8EE0-444D-98E2-31CDA7B45FFD.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120002/CF37C997-EF10-3746-882F-151BBA2CCF64.root");
-lumi = 0.081194529;
+    bunches = 2544;
+    lumi = 0.081194529;
 }
   if(run ==323472){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/EE2D08D7-0C83-5144-89AF-3ADD13B56A17.root");
@@ -14588,7 +14784,8 @@ lumi = 0.081194529;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/B3F3E89B-B413-7E46-A71B-8534F9955998.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/7A067E14-44A8-8B4C-B32D-980227145A3A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/3C3511A7-0152-CF44-B620-17D9FCCA3873.root");
-lumi = 0.020773229;
+    bunches = 2544;
+    lumi = 0.020773229;
 }
   if(run ==323473){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/65FE0290-7666-2647-8F70-4CE2BB878C8B.root");
@@ -14622,7 +14819,8 @@ lumi = 0.020773229;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/808CD46F-1297-DE4F-92E9-277446B90B77.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120000/AD2AA7F0-E508-CC4C-A220-0F6E25421C06.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/4A1E34B6-07B2-4747-A8A4-C369E0EF2258.root");
-lumi = 0.058635108;
+    bunches = 2544;
+    lumi = 0.058635108;
 }
   if(run ==323474){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/FE61A8BD-0128-1940-B66A-53BCDDC8F769.root");
@@ -14672,7 +14870,8 @@ lumi = 0.058635108;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/09AF8C37-2C33-1A40-A30E-1195D4B7F86F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/0C23FE3B-9140-4046-8217-F6CBE63D7E51.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/59B4B212-4D70-1E4C-B52D-1A115F30FC2F.root");
-lumi = 0.083681186;
+    bunches = 2544;
+    lumi = 0.083681186;
 }
   if(run ==323475){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/97DAE77D-3F3F-1E48-963E-0E5A17836B10.root");
@@ -14687,7 +14886,8 @@ lumi = 0.083681186;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/555940E1-4A19-974D-8062-75E3DC85F95E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/31EECE8B-A895-2143-8DCE-A03F2645B629.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/26CC5BB4-839E-A140-8DE6-651693BDE925.root");
-lumi = 0.016355987;
+    bunches = 2544;
+    lumi = 0.016355987;
 }
   if(run ==323487){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260008/CBA9A20A-A00F-8C4C-95F6-1799F6290C73.root");
@@ -14782,7 +14982,8 @@ lumi = 0.016355987;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/81F57D74-E448-274F-9814-E5DA377FD817.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/FF03D4A4-A72B-1241-9C1A-07160AF29F1B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/75C73A28-5067-4A4E-9151-089862D820FE.root");
-lumi = 0.168876988;
+    bunches = 2544;
+    lumi = 0.168876988;
 }
   if(run ==323488){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/7BB2A404-2406-0A4B-8428-0C2A17EE7579.root");
@@ -14882,7 +15083,8 @@ lumi = 0.168876988;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/8850E422-A09C-BC46-BB81-9B6F22F973E4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/79D03704-91C9-B14C-91E7-E2A1A84A4740.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/74003529-E5A0-014E-A18C-B7887D9EE94E.root");
-lumi = 0.210842675;
+    bunches = 2544;
+    lumi = 0.210842675;
 }
   if(run ==323492){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/2D734267-5C7A-8447-87C1-5478283F48C9.root");
@@ -14890,7 +15092,8 @@ lumi = 0.210842675;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/44BFF7B6-A425-F247-A4E6-1DAAB755C5AF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/74B78FD8-80E2-1C43-8416-50E0891BB620.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/823C23C1-0165-AC49-BCDE-44AC5F79AD4D.root");
-lumi = 0.006262768;
+    bunches = 2544;
+    lumi = 0.006262768;
 }
   if(run ==323493){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/0C23FE3B-9140-4046-8217-F6CBE63D7E51.root");
@@ -14909,7 +15112,8 @@ lumi = 0.006262768;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/03894FCA-44B7-6446-ADBC-BDBC6EA0D9BE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/890F92BE-DAB2-DB45-BCD2-CF9A66769EEA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/C45EC947-0A90-8C45-84B5-C821ECD46B8B.root");
-lumi = 0.029441509;
+    bunches = 2544;
+    lumi = 0.029441509;
 }
   if(run ==323495){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/527E5A63-2C73-9044-976A-6D925876D8C2.root");
@@ -14937,7 +15141,8 @@ lumi = 0.029441509;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/C55CB110-F6C8-AB40-9B4E-47466FB467D7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/264D39D1-3984-B247-86EF-830E620C80FF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/6428D699-2FFF-8F44-93D2-7D0B66016D31.root");
-lumi = 0.036237931;
+    bunches = 2544;
+    lumi = 0.036237931;
 }
   if(run ==323524){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120003/46A8C1BD-FC46-184D-B0E0-DBBBB2BF5B9E.root");
@@ -15028,7 +15233,8 @@ lumi = 0.036237931;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/DB048E31-B871-8F4E-8829-DD899669AD8F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/373C8327-BE26-B54C-A69A-BE802B690D25.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/7A83E4D8-0E03-DA46-A56B-20F140F29D48.root");
-lumi = 0.194752238;
+    bunches = 2544;
+    lumi = 0.194752238;
 }
   if(run ==323525){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/47C03212-01E4-4049-8450-74D0B23FC8A0.root");
@@ -15160,7 +15366,8 @@ lumi = 0.194752238;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/1B7BD616-9B9A-4A43-90BF-40C3499B1507.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/F10CCFB1-BEEF-1D42-B410-BAD36F5D172E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/18F51BDD-F2B4-1A44-8BCC-1072B9E5EE6F.root");
-lumi = 0.26212894;
+    bunches = 2544;
+    lumi = 0.26212894;
 }
   if(run ==323526){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/71135EDD-602F-8840-9CE6-39AA2897934D.root");
@@ -15197,7 +15404,8 @@ lumi = 0.26212894;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/1394F573-254A-2F46-86E4-745853CDDF7B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/36543813-7D33-B041-BD6C-7D85262A96DA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/39BBE376-B740-F54B-8DB7-75FD7EA76BE2.root");
-lumi = 0.071984574;
+    bunches = 2544;
+    lumi = 0.071984574;
 }
   if(run ==323693){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/C575AD62-B40C-D949-93BF-21AF9660AD1A.root");
@@ -15233,7 +15441,8 @@ lumi = 0.071984574;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/CF26C4F0-1449-9A4E-B12A-118C601D00C5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/6F5F52DA-4EDA-1244-B25E-DA64251FDDE0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/FD844B80-E00E-3345-8D41-5406AB6B77C5.root");
-lumi = 0.04398399;
+    bunches = 2544;
+    lumi = 0.04398399;
 }
   if(run ==323696){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/AFF7193F-34C2-A545-AF2A-51EC78F1DA70.root");
@@ -15284,7 +15493,8 @@ lumi = 0.04398399;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/7492B98B-3B13-BA45-85CC-EE1E4F6B0FC5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/E2F2EBFE-607A-1547-9861-3E0B10BBC637.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/3293EBA0-CDC7-2243-8C2E-32E4B6537C3B.root");
-lumi = 0.095889711;
+    bunches = 2544;
+    lumi = 0.095889711;
 }
   if(run ==323702){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/99182641-D0C2-7B4F-A115-3861BABBB215.root");
@@ -15372,7 +15582,8 @@ lumi = 0.095889711;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/8BB576D2-B2E1-9840-B8B7-4517FAC1C2DB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/7495DD59-A24A-D74C-B62D-9FC0B38305F7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/22E5291F-5256-D44C-8950-BA62EBF47A08.root");
-lumi = 0.157851935;
+    bunches = 2544;
+    lumi = 0.157851935;
 }
   if(run ==323725){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/4FBEF07D-ECBB-A547-899D-4731E6634D59.root");
@@ -15452,7 +15663,8 @@ lumi = 0.157851935;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/B7466F22-D2B6-6C4C-BEDE-7C35AD46BD85.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/C36077D8-AA29-9147-829D-E08F9E9CC58B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/491A9E29-A038-E747-91FD-2F93752649E7.root");
-lumi = 0.128059275;
+    bunches = 2544;
+    lumi = 0.128059275;
 }
   if(run ==323726){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/D3F7F49C-DC87-7841-9C53-3CBA396B67E9.root");
@@ -15466,7 +15678,8 @@ lumi = 0.128059275;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/2D25EDCE-F73E-5844-AA81-8857E04EADA1.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/727DCF0B-56AE-B444-B3B2-6BECADA6C133.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/B849F559-8F10-B74C-B673-7C20E2DB80A0.root");
-lumi = 0.015709058;
+    bunches = 2544;
+    lumi = 0.015709058;
 }
   if(run ==323727){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/37C2E570-6B6C-BE4E-9271-78278988C318.root");
@@ -15590,7 +15803,8 @@ lumi = 0.015709058;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/5A186F80-95F5-334E-B404-000E192A1007.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/CDF3656B-6E10-4949-8373-887CB167E9D5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/4741503B-2283-6145-BBE4-53115D2E44BB.root");
-lumi = 0.269731147;
+    bunches = 2544;
+    lumi = 0.269731147;
 }
   if(run ==323755){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/9C6C3207-DC0F-B94A-9B60-6238FC6DE336.root");
@@ -15748,7 +15962,8 @@ lumi = 0.269731147;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/6B0DA0D5-506B-7942-A75E-83F0BD5D148A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/6C5DD9C9-BC2A-7345-8A1E-0F8F8EEE2815.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260008/A55C8F7D-0477-CA48-9BF3-2ACD6D0B7A21.root");
-lumi = 0.322330164;
+    bunches = 2544;
+    lumi = 0.322330164;
 }
   if(run ==323775){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/EFB0221A-D301-0A46-B19D-8207DACBDEB1.root");
@@ -15788,7 +16003,8 @@ lumi = 0.322330164;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260008/BFB008F8-5D45-F643-B53A-F04EABCF995A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260008/192CB6C6-CFA6-4844-AAEE-36C10995D2F2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260008/EE205B44-6894-CF4A-9D70-E81EBB415670.root");
-lumi = 0.051574524;
+    bunches = 2544;
+    lumi = 0.051574524;
 }
   if(run ==323778){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260008/3BF7CE72-DAF3-F04F-8295-63CDAE283AE0.root");
@@ -15929,7 +16145,8 @@ lumi = 0.051574524;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/27B7812F-F620-3C44-A390-238D4D9CBBFF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/4FB67F50-0329-4949-BE2F-1A5049514CC3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/F056B568-AEE7-8A40-B686-69BD32A78834.root");
-lumi = 0.291574783;
+    bunches = 2544;
+    lumi = 0.291574783;
 }
   if(run ==323790){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/E828FF42-2CEC-0049-B762-7D22E9E1D2C9.root");
@@ -16079,7 +16296,8 @@ lumi = 0.291574783;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/2FADF015-554D-D844-AF49-783B36CD45D5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/06C85D45-A49D-024C-B76D-86A1686F111E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/F6D67D2D-3168-F940-B4BD-A12945AE8609.root");
-lumi = 0.298320139;
+    bunches = 2544;
+    lumi = 0.298320139;
 }
   if(run ==323794){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/5C741D51-250F-EA4C-B064-EEDF2B97804A.root");
@@ -16095,7 +16313,8 @@ lumi = 0.298320139;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/674F8DA2-3DDA-1D44-ABA4-E5C0C0D35119.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/659C2A9D-8B3C-1644-9127-0CFE2880A120.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/02D1D579-CC60-4644-B30A-C69CFC36872E.root");
-lumi = 0.017447823;
+    bunches = 2544;
+    lumi = 0.017447823;
 }
   if(run ==323841){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110003/1C9AB59B-D6BA-9E48-BCE2-2CC8E4B3A901.root");
@@ -16187,7 +16406,8 @@ lumi = 0.017447823;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/32FEA1A2-B048-A242-B180-FA56CEE1520F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/F95B02DD-A6F1-D14C-8FE6-64D14B4CF28C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/1288D3FD-8594-7444-9601-6E1A6322B5BB.root");
-lumi = 0.167399301;
+    bunches = 2544;
+    lumi = 0.167399301;
 }
   if(run ==323857){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/63780E37-10D2-1945-B6CD-809469248F96.root");
@@ -16242,7 +16462,8 @@ lumi = 0.167399301;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/A38CEB20-8F83-A141-AC5F-E992FEF57D71.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/13BCB057-C6CF-D24C-A058-297F70C4DBFE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/F52AF574-AB78-F245-8955-D23B5E0436EE.root");
-lumi = 0.103957088;
+    bunches = 2544;
+    lumi = 0.103957088;
 }
   if(run ==323940){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/406978EC-A657-2442-A42E-79163BACC6FA.root");
@@ -16501,7 +16722,8 @@ lumi = 0.103957088;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/E8CB2F3D-EE4B-7246-ADE3-BA98C6D0F1A2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/F382E811-7FB8-4D4E-A29E-F4F48A2303A0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/F5526E2D-33FA-C448-823C-122FEABF3E6D.root");
-lumi = 0.459844169;
+    bunches = 2544;
+    lumi = 0.459844169;
 }
   if(run ==323954){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/30471649-DC41-1949-A098-31E940095E14.root");
@@ -16522,7 +16744,8 @@ lumi = 0.459844169;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/D9BDAAB1-563A-D04A-9194-D6E7BC938AF6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/4E1DD495-F54B-3747-9DDA-60200A299B0B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/170A2DBD-5FE8-D14F-9262-200A65679F3B.root");
-lumi = 0.016395679;
+    bunches = 2544;
+    lumi = 0.016395679;
 }
   if(run ==323976){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/7234F4D2-2E65-DB4D-993C-3E66A8DEF0C7.root");
@@ -16538,7 +16761,8 @@ lumi = 0.016395679;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/04C6950D-B1DF-0A4C-8F69-32FD8417FF06.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/355F4E10-A85B-094C-8751-EE1EEC28E73B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/E90D2D17-85C8-1743-8C31-A09236568281.root");
-lumi = 0.016097043;
+    bunches = 2544;
+    lumi = 0.016097043;
 }
   if(run ==323978){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/17E8B70B-8DEE-CE46-A285-882154CA21F2.root");
@@ -16559,7 +16783,8 @@ lumi = 0.016097043;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/9493E471-E1D5-6B46-A1E3-953B48F88DE6.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/56615A46-8BCA-0146-AA00-2628257134DB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/7C3CB3B3-983E-4445-A76A-197215E2119B.root");
-lumi = 0.023608835;
+    bunches = 2544;
+    lumi = 0.023608835;
 }
   if(run ==323980){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/581F0906-A814-8D44-ACC9-DFC139FAB8B3.root");
@@ -16612,7 +16837,8 @@ lumi = 0.023608835;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/69190462-E96C-0B43-9C25-CF0AA5B56539.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/178E98B4-44CE-9C41-B6EA-553886B06315.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/4AFE694E-E29B-D240-8608-83BE37747480.root");
-lumi = 0.072844722;
+    bunches = 2544;
+    lumi = 0.072844722;
 }
   if(run ==323983){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/20698173-74A9-264C-9BEB-BA4F3C4640B9.root");
@@ -16660,7 +16886,8 @@ lumi = 0.072844722;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/199049FE-B283-384E-A39B-2FE5B4D527EA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/FF122E0E-3189-5D4B-BF22-19A8B52BE3E5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/BB6EEA52-186E-9549-8106-B6E09125CB43.root");
-lumi = 0.061078365;
+    bunches = 2544;
+    lumi = 0.061078365;
 }
   if(run ==323997){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/BA3FB6F2-539E-404C-B264-77E5F32EC8C6.root");
@@ -16758,7 +16985,8 @@ lumi = 0.061078365;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/8E3E8490-73C6-0746-8916-E961A03380C3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/8FF8161B-5AC1-A64A-A34A-B4E101EAFC1C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/A39BA3B2-098C-1C45-B300-DA8F87FE8323.root");
-lumi = 0.138594084;
+    bunches = 2544;
+    lumi = 0.138594084;
 }
   if(run ==324021){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/5D2BB7FD-315A-6446-8E7E-0EFC4976FB90.root");
@@ -16940,7 +17168,8 @@ lumi = 0.138594084;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/A9DB3800-1783-1E4E-8055-E0AA35C37A45.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/E4ABBA10-E6D9-5046-9773-F0C9FEB9C95B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/344391B9-6726-614E-820C-A91CD4DFF61F.root");
-lumi = 0.272250867;
+    bunches = 2544;
+    lumi = 0.272250867;
 }
   if(run ==324022){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/70897467-34E9-CF4C-A41A-236450E792C2.root");
@@ -17029,7 +17258,8 @@ lumi = 0.272250867;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/90B815AC-EABD-2C48-BCBD-4D1C5093C5A2.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/98DB84B6-6CB9-F748-B889-E387FEF2857E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/64FF5E50-2561-6C48-AC44-89CB873D5EDB.root");
-lumi = 0.140994748;
+    bunches = 2544;
+    lumi = 0.140994748;
 }
   if(run ==324077){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/4B85EDC2-E695-D947-AFAF-80F728E35181.root");
@@ -17174,7 +17404,8 @@ lumi = 0.140994748;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/127E8B9F-26F1-A140-B9AF-19FA42A34C76.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/A7E7BE53-19A6-BD49-B6BE-D50129098625.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110000/0542C86C-93F5-824D-8944-C84CDF7F7913.root");
-lumi = 0.261820132;
+    bunches = 2544;
+    lumi = 0.261820132;
 }
   if(run ==324201){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/5F51B76E-5C8F-0D44-AA17-A87915B4EB0C.root");
@@ -17359,7 +17590,8 @@ lumi = 0.261820132;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/5A3A73B5-D81C-9C41-B5E7-AECAEF6E8E2A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/D4839BE9-FB08-034F-812F-B8F477650D32.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/38E6EF42-4B08-1E46-B83A-CDE7EACE40D9.root");
-lumi = 0.391377356;
+    bunches = 2544;
+    lumi = 0.391377356;
 }
   if(run ==324202){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/CE90927B-4837-FC49-9115-4DD577E3FCFA.root");
@@ -17386,7 +17618,8 @@ lumi = 0.391377356;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/3497B438-60EF-C148-9CF0-B10C290C80DF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/3C467096-1878-8E40-BF0E-CFCC27800AF8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/E1416067-CFE4-1645-826D-112D9471AA96.root");
-lumi = 0.042203333;
+    bunches = 2544;
+    lumi = 0.042203333;
 }
   if(run ==324205){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/DB02BB07-0B20-2D42-ADCF-666BA1BBFA59.root");
@@ -17408,7 +17641,8 @@ lumi = 0.042203333;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/E0A94951-6D71-1343-A90C-35045010E9CC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/D805B834-1697-2849-A948-DAF72B4A1173.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/54128B3C-0870-1049-9319-93DC821EDECC.root");
-lumi = 0.024696885;
+    bunches = 2544;
+    lumi = 0.024696885;
 }
   if(run ==324206){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/3727A1B7-7D7F-CE44-9587-903C620DC753.root");
@@ -17425,7 +17659,8 @@ lumi = 0.024696885;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/EF1221B7-1BAC-5040-A546-89537EAC835B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/D13BE585-266B-F241-941A-0006AA2B6A44.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/3CA5D804-ECA3-B04E-86D3-DD98E85CFF3A.root");
-lumi = 0.018845567;
+    bunches = 2544;
+    lumi = 0.018845567;
 }
   if(run ==324207){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/CE90927B-4837-FC49-9115-4DD577E3FCFA.root");
@@ -17435,7 +17670,8 @@ lumi = 0.018845567;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/3CA5D804-ECA3-B04E-86D3-DD98E85CFF3A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/33EBA63C-4218-C643-A333-0C2F47AA793D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/A139C2DA-E3CD-F546-A663-9CF4530039E7.root");
-lumi = 0.004360644;
+    bunches = 2544;
+    lumi = 0.004360644;
 }
   if(run ==324209){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/478000D7-D718-3844-8DB9-91C2A449EE9E.root");
@@ -17461,7 +17697,8 @@ lumi = 0.004360644;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/4145906B-E2E4-7A4E-9183-DE835A43B733.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/33EBA63C-4218-C643-A333-0C2F47AA793D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/BB2F9FFE-352F-DC4B-B8A9-B34461AE32B8.root");
-lumi = 0.018781414;
+    bunches = 2544;
+    lumi = 0.018781414;
 }
   if(run ==324237){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/C04FCF3F-55D3-A84E-A802-85C137D6B638.root");
@@ -17517,7 +17754,8 @@ lumi = 0.018781414;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/6AF693F6-CB62-A843-B20B-A46927803C7C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/7494E2BC-0B33-BF40-B209-91D043F2EFDC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/40742E0B-FB5E-F347-B395-37987B3D8330.root");
-lumi = 0.081244836;
+    bunches = 2544;
+    lumi = 0.081244836;
 }
   if(run ==324245){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/C0DA69B2-6B6C-0B40-B21B-10EB09793E5E.root");
@@ -17737,7 +17975,8 @@ lumi = 0.081244836;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/2D83B38C-88B7-254C-8553-C4477866AC49.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/19199286-CF90-9745-AB66-A078F611BFE5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110004/BCF35EB2-4DAB-C648-830E-BFEA0EB2486E.root");
-lumi = 0.449506934;
+    bunches = 2544;
+    lumi = 0.449506934;
 }
   if(run ==324293){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/087B105E-8C8D-5445-8BD7-0F6EB8D04113.root");
@@ -18006,7 +18245,8 @@ lumi = 0.449506934;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/E7B39320-11A3-B24A-A769-ABC2A8848714.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/19B8391F-43B2-B14E-A3B3-613C3F64608C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/0C6A7F07-55F8-FF4A-9904-D5A9FE0F1FF6.root");
-lumi = 0.553100052;
+    bunches = 2544;
+    lumi = 0.553100052;
 }
   if(run ==324315){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/43EC59E4-FFB7-574A-8246-4827C99DE2CF.root");
@@ -18055,7 +18295,8 @@ lumi = 0.553100052;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/D0394CFF-5477-E741-9F7D-C3295EF0EB46.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/B79D91C8-BE1B-A34B-8F4C-8595971311C7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/5AD2EA46-FB6E-0F41-B71E-146B82FF40F1.root");
-lumi = 0.075753766;
+    bunches = 2544;
+    lumi = 0.075753766;
 }
   if(run ==324318){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/278DF863-D8A0-DE45-900D-BE1188A00A59.root");
@@ -18109,7 +18350,8 @@ lumi = 0.075753766;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/FDDDB885-AB33-AA4F-8731-B7A34F9878D3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/01B3E925-19FA-C948-84C6-271381A1CEB3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/97799180-04DB-344E-AB29-BAD2ED1F0347.root");
-lumi = 0.108347115;
+    bunches = 2544;
+    lumi = 0.108347115;
 }
   if(run ==324420){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120004/744DDF6E-229C-8749-A442-932A4E07409D.root");
@@ -18221,7 +18463,8 @@ lumi = 0.108347115;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/240DD7C1-035B-5A47-AE99-773C6B08CFA0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/A327B4D2-0A6B-CD4D-B03E-5C2E801C4A34.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/892A97B1-2F4D-A64A-BC16-EDF0069736B2.root");
-lumi = 0.216568229;
+    bunches = 2544;
+    lumi = 0.216568229;
 }
   if(run ==324564){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/58BB9423-09B5-2144-ABD3-94EED837DEBB.root");
@@ -18297,7 +18540,8 @@ lumi = 0.216568229;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270000/E9DEBC90-5D99-674E-A16A-DFCFE2DB3D25.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/C7D3F223-5153-354D-AF42-1C91D7DF1602.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/270001/DD2DB248-FEFD-7D48-A142-5D16A0EFCF4E.root");
-lumi = 0.0;
+    bunches = 150;
+    lumi = 0.0;
 }
   if(run ==324570){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/2ED9B468-21B1-8540-B369-EC48DE0EFAE8.root");
@@ -18319,7 +18563,8 @@ lumi = 0.0;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/50338DB1-5C14-B840-9406-F4E84FD0C4FA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/02678FF4-BB06-5C43-94C2-FD3A520C4E42.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/803560D9-B7A3-2E48-B070-D9E6CA2F3B5A.root");
-lumi = 0.0;
+    bunches = 150;
+    lumi = 0.0;
 }
   if(run ==324571){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/A1E68346-DB98-6344-AE92-6EEF6DF0C94B.root");
@@ -18369,7 +18614,8 @@ lumi = 0.0;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/43EC6D6D-B05F-974E-B0C6-F89BFAA20B15.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/BC6BC2DE-E775-6440-AD0E-8381318B13EE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/5A146FC8-A064-6345-913E-9008457D764D.root");
-lumi = 0.0;
+    bunches = 150;
+    lumi = 0.0;
 }
   if(run ==324729){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/533AA281-7BE0-CE46-A151-EF14E8332EF9.root");
@@ -18408,7 +18654,8 @@ lumi = 0.0;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260002/CE3252FA-603E-2A48-9963-7C35234EC059.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/6537FB3D-2B91-584C-BE60-E89D453B5683.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/99C086CE-E2D5-6443-B977-5A73201B5465.root");
-lumi = 0.043771887;
+    bunches = 590;
+    lumi = 0.043771887;
 }
   if(run ==324747){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/FE41FA20-64BC-9B44-848A-9B227CF3CDC2.root");
@@ -18577,7 +18824,8 @@ lumi = 0.043771887;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130003/C7034DD9-AADF-FB47-AE04-A44FA878E40C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130003/60BA92E0-1016-264E-9403-7AD3D575D085.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260009/454701A5-381C-364F-A606-833BE1D840FF.root");
-lumi = 0.332206711;
+    bunches = 2544;
+    lumi = 0.332206711;
 }
   if(run ==324764){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/A13351A4-A7AE-CA44-B1E3-77C7A2000256.root");
@@ -18597,7 +18845,8 @@ lumi = 0.332206711;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/4E3CED84-D663-AF4A-915B-7CEE018AEF70.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/1042AA46-4A74-064C-ABC8-5DD232B9BB4E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/52776067-3570-204B-9D5F-49212277D539.root");
-lumi = 0.032334901;
+    bunches = 2544;
+    lumi = 0.032334901;
 }
   if(run ==324765){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/586BDA9E-60B8-8042-8B8B-2809C4940006.root");
@@ -18648,7 +18897,8 @@ lumi = 0.032334901;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/81FB7E43-6D32-B149-BDB3-7BBE6747D3A9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/EAD94AA8-7712-F54F-A652-0911C530A51F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/B9E21A13-2EDC-F04E-B4A4-E7EF0A8AF6C7.root");
-lumi = 0.094298139;
+    bunches = 2544;
+    lumi = 0.094298139;
 }
   if(run ==324769){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/CAAD9284-689A-A746-8519-672F623B4F82.root");
@@ -18681,7 +18931,8 @@ lumi = 0.094298139;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/B69C9187-EF90-DE4E-96DB-A58B71446C44.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/406D087E-D247-1741-83A9-00E5C944B32E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/9F67BE6E-DA1E-394A-B7C6-0B4E7D2A622C.root");
-lumi = 0.050323205;
+    bunches = 2544;
+    lumi = 0.050323205;
 }
   if(run ==324772){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/31A9B8C2-8D14-2140-87F3-263E9C55EB9A.root");
@@ -18701,7 +18952,8 @@ lumi = 0.050323205;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/02025B8E-E17E-6845-9401-B5E3C2BDCE2D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/051D895C-44C4-FB4C-A354-5B2E8DA3C765.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/240000/6EE9461B-FC71-7144-94F8-A3AD82581D20.root");
-lumi = 0.020737127;
+    bunches = 2544;
+    lumi = 0.020737127;
 }
   if(run ==324785){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/3F3FB96C-C9D3-A246-8B88-C49A78276EEA.root");
@@ -18808,7 +19060,8 @@ lumi = 0.020737127;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260009/D68DE7AE-206B-D743-98F9-B619C1E83448.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260009/BD39A8AB-B18A-4443-B0B1-F253E9D2210A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260009/E0CD75DB-B8F4-2B47-AEE6-5ADAC2023590.root");
-lumi = 0.200268051;
+    bunches = 2544;
+    lumi = 0.200268051;
 }
   if(run ==324791){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/27C1BD5C-5732-9142-BEA9-F952A914764E.root");
@@ -18936,7 +19189,8 @@ lumi = 0.200268051;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/E54650C8-4524-0041-A038-26EE0FBC1391.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/49EF81D4-2BF4-0E4C-88C7-83EB66C903BA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/5A679D4F-4C1B-3945-A851-3B6510C1F4BF.root");
-lumi = 0.264156454;
+    bunches = 2544;
+    lumi = 0.264156454;
 }
   if(run ==324835){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260010/A9A07F05-291F-6240-AE77-5E39E50EFDEA.root");
@@ -19014,7 +19268,8 @@ lumi = 0.264156454;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/98ED032B-8AA4-9E4A-92E1-555AF7DA4D4D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/1F3632DB-4360-E844-B669-B72C1293DDFB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260010/73FC4906-1AA0-304F-9EE8-CA443020C48B.root");
-lumi = 0.119524947;
+    bunches = 2544;
+    lumi = 0.119524947;
 }
   if(run ==324840){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260010/B9BAD2A0-6E9D-D640-A903-EE415DC85455.root");
@@ -19034,7 +19289,8 @@ lumi = 0.119524947;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/0FFB6103-5402-DC4E-A7E8-6A0689BEB3EE.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/441A9756-6C97-9743-933E-D7D01BD18CB3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/5430CA26-B716-1B42-8D91-955E7BEF17C9.root");
-lumi = 0.029814295;
+    bunches = 2544;
+    lumi = 0.029814295;
 }
   if(run ==324841){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/B01BC8C1-17F0-2546-9960-7A997BB342E2.root");
@@ -19184,7 +19440,8 @@ lumi = 0.029814295;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/F03F7431-D6BD-3543-AD2F-F5C876B389B5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/3F3BAF50-503D-9544-930F-D6DE4C4118EB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260003/45521C8A-01BC-444E-A9F3-F89900C79607.root");
-lumi = 0.32372999;
+    bunches = 2544;
+    lumi = 0.32372999;
 }
   if(run ==324846){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/4C886CC5-7B74-4446-93F3-B6EF592C6DC0.root");
@@ -19224,7 +19481,8 @@ lumi = 0.32372999;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/2F9F46AB-78D2-3444-9D53-50B3FD854080.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/CC7BF465-75E3-9749-99FD-9BCF0ACF1ADA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/1CA0C092-95F2-E74B-BA34-AF2CB66CC353.root");
-lumi = 0.074605355;
+    bunches = 2544;
+    lumi = 0.074605355;
 }
   if(run ==324878){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/090A3300-D5E6-C541-969B-2A0181FC86EB.root");
@@ -19453,7 +19711,8 @@ lumi = 0.074605355;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/9D2EBA3D-975E-5F46-A3C2-3085C7BACD71.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/951E88D2-CF5F-894F-A7B3-5CBA53DD2CF0.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/7C136C35-EC06-764B-9A37-AB7AC03B8B49.root");
-lumi = 0.435644785;
+    bunches = 2544;
+    lumi = 0.435644785;
 }
   if(run ==324897){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/50F4247C-B74A-1B4B-8BA3-1BF078BE75AF.root");
@@ -19493,7 +19752,8 @@ lumi = 0.435644785;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/77BDADC6-F2B8-8742-A52D-D2A129A0796F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280001/1C231A29-6C82-7A47-BF39-208CE50626DA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/184DDDD5-20B3-6144-8515-6817882568B3.root");
-lumi = 0.054610472;
+    bunches = 2544;
+    lumi = 0.054610472;
 }
   if(run ==324970){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130000/D4F22049-EE32-9743-909B-41962B16ED57.root");
@@ -19764,7 +20024,8 @@ lumi = 0.054610472;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/6C554815-8472-EA4E-AFD1-AC68A3759F45.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/2FC90D9E-7506-2A4B-A5E3-2B5B92836899.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/280004/27E36A14-5523-6746-888F-2E5987AC06FD.root");
-lumi = 0.519471637;
+    bunches = 2544;
+    lumi = 0.519471637;
 }
   if(run ==324980){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/9260AC22-2E4C-834C-A0A3-D8A8C1101793.root");
@@ -20049,7 +20310,8 @@ lumi = 0.519471637;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/55A9D2DF-CF31-354E-96EC-FF8D5478DBB9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/9E50AB2E-9249-BF42-B67B-261C23FC4DEF.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130002/5C8D0489-BE2D-C545-8AE5-F028C0B4E56A.root");
-lumi = 0.563207586;
+    bunches = 2544;
+    lumi = 0.563207586;
 }
   if(run ==324997){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120003/7C2753FC-CF8D-054D-9D15-1F03F8E20AA4.root");
@@ -20084,7 +20346,8 @@ lumi = 0.563207586;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110005/72D7AC59-92F9-CA41-891A-B1E8CE1FAB9E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110005/E96DA8D9-C18F-5149-BDE2-DE416AAC6D09.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/110001/78E38763-1C3D-4149-A2E9-D7B19B99CFEE.root");
-lumi = 0.04525754;
+    bunches = 2544;
+    lumi = 0.04525754;
 }
   if(run ==324998){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120003/13FD3E6F-A2D9-FE42-AB20-6006F55D3D33.root");
@@ -20145,14 +20408,16 @@ lumi = 0.04525754;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120003/7AE25ED2-F34B-3B4D-9111-DBE4AE9DDCE4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/8BFD0B9F-D94C-DD49-9A19-ED585F264DBC.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/9DE5F928-80A0-B441-8EDC-00E147A671D9.root");
-lumi = 0.122858565;
+    bunches = 2544;
+    lumi = 0.122858565;
 }
   if(run ==324999){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/0A05B98D-B0A4-9047-9678-9F791A887808.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/CE504421-C9D9-E845-910E-3F7BC8465E7F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/B205F850-7419-144D-91A5-615999BC4EBA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/EDDC849F-DD69-174B-8EEA-43701128A62C.root");
-lumi = 0.004176629;
+    bunches = 2544;
+    lumi = 0.004176629;
 }
   if(run ==325000){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/D726433E-BD83-0948-A6DF-8096B2E4829D.root");
@@ -20214,7 +20479,8 @@ lumi = 0.004176629;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/71768A67-3194-BB42-A23F-C2C477E91FE4.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/86F1EA7E-37EF-FA4F-82D4-5ECC4B05B8FB.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/BB804584-B3E2-1342-8386-C569DF7C3A48.root");
-lumi = 0.101809379;
+    bunches = 2544;
+    lumi = 0.101809379;
 }
   if(run ==325001){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/09E18AEF-8045-8A45-887F-911DC0836C81.root");
@@ -20287,7 +20553,8 @@ lumi = 0.101809379;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/B0DDECE1-58A7-7C47-A36D-174C64172445.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/8832B2A7-2E95-D048-9E35-6D321AF63B39.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/71F14563-51B1-3742-B829-10121421B56D.root");
-lumi = 0.129571221;
+    bunches = 2544;
+    lumi = 0.129571221;
 }
   if(run ==325022){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/9272B12B-CB3D-7841-B7AA-56C6C88DD880.root");
@@ -20526,7 +20793,8 @@ lumi = 0.129571221;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/209F2289-5EFB-0544-8FE7-9BC76C83F336.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130001/5B16B35A-B3A4-284A-BD8E-17989F382A57.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130004/916ACA67-6F98-B34A-A6A8-AF45E332B59B.root");
-lumi = 0.467213098;
+    bunches = 2544;
+    lumi = 0.467213098;
 }
   if(run ==325057){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/F82BD0F2-CA15-C74B-AA58-D860188E8E4D.root");
@@ -20614,7 +20882,8 @@ lumi = 0.467213098;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130004/CA578ED2-0524-2548-BDDC-A002D481F932.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130004/04943B89-785D-C24B-AD04-809051BCDF80.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/130004/4F70A8C4-2BD0-2143-862F-38BC5B61BA08.root");
-lumi = 0.129896121;
+    bunches = 2544;
+    lumi = 0.129896121;
 }
   if(run ==325097){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/022CC3E9-1805-774E-875E-0DAAE34E6139.root");
@@ -20637,12 +20906,14 @@ lumi = 0.129896121;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/06B2E032-EE95-954D-8BA3-D664B203E3E5.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/2B443161-FC29-2A4A-8524-05192694009C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/865B0557-F32B-9740-B225-E2FC14301B88.root");
-lumi = 0.020124399;
+    bunches = 2544;
+    lumi = 0.020124399;
 }
   if(run ==325098){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/506CB225-DAD3-D24E-958A-D84AA817A24E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/F82BD0F2-CA15-C74B-AA58-D860188E8E4D.root");
-lumi = 0.002192403;
+    bunches = 2544;
+    lumi = 0.002192403;
 }
   if(run ==325099){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/EFF779B2-43E9-C542-AC79-535511050006.root");
@@ -20740,7 +21011,8 @@ lumi = 0.002192403;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/8A090E7F-C8C9-F64B-B439-FF125A49E67E.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/0758FFA9-B790-154F-9681-6BFE2BA11821.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/4440A4D2-D7B4-9847-9D7A-27AFEE986556.root");
-lumi = 0.149676212;
+    bunches = 2544;
+    lumi = 0.149676212;
 }
   if(run ==325100){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/38B760CC-3CC2-B94E-96E1-F279E68A12FB.root");
@@ -20797,7 +21069,8 @@ lumi = 0.149676212;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/111321C9-AE0B-C24F-90ED-F29D57BA666C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/022CC3E9-1805-774E-875E-0DAAE34E6139.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/D5FB5EE2-94CD-9C46-8E9E-1C367734FB55.root");
-lumi = 0.080088454;
+    bunches = 2544;
+    lumi = 0.080088454;
 }
   if(run ==325101){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/5860D6F9-FE6F-C741-AF0B-184B9F5D41AA.root");
@@ -20890,14 +21163,16 @@ lumi = 0.080088454;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/871F758F-A792-9445-8499-9CFDD81A72C3.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/3959FD1A-6CAE-734A-9955-7B443B1126EA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/77A5D0FE-BEBF-EA40-A52A-0B222D818EBB.root");
-lumi = 0.127431312;
+    bunches = 2544;
+    lumi = 0.127431312;
 }
   if(run ==325110){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/59497721-E744-7C45-B410-90DD43BFB54C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/EFF779B2-43E9-C542-AC79-535511050006.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/03CEA7C6-5FB9-D64F-A486-1DC447F885E8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/5546EABC-EB02-EB46-8787-1C67E3B69F0B.root");
-lumi = 0.00350552;
+    bunches = 2544;
+    lumi = 0.00350552;
 }
   if(run ==325111){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/92B4F13C-6E19-254F-B925-37BBCE812014.root");
@@ -20905,7 +21180,8 @@ lumi = 0.00350552;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/108C5233-AA5F-834F-AAE6-80C6A07DB440.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/05D7F912-5639-A94A-8914-C86AB25E6559.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/51B7360D-A288-CB42-B19D-2571520CA6B6.root");
-lumi = 0.004071924;
+    bunches = 2544;
+    lumi = 0.004071924;
 }
   if(run ==325113){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/B26BD333-DAA2-C749-8CA8-1BA0ED6ED917.root");
@@ -20930,13 +21206,15 @@ lumi = 0.004071924;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/52B05E06-880D-044B-82B9-4BCBCE017987.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/3258AD41-169B-5C4E-A0FA-971D01455703.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/5546EABC-EB02-EB46-8787-1C67E3B69F0B.root");
-lumi = 0.023345157;
+    bunches = 2544;
+    lumi = 0.023345157;
 }
   if(run ==325114){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/03CEA7C6-5FB9-D64F-A486-1DC447F885E8.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/5546EABC-EB02-EB46-8787-1C67E3B69F0B.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/51B7360D-A288-CB42-B19D-2571520CA6B6.root");
-lumi = 0.077011023;
+    bunches = 2544;
+    lumi = 0.077011023;
 }
   if(run ==325117){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/260000/4C8AD314-AF2C-644B-A537-567655AEABD4.root");
@@ -21008,7 +21286,8 @@ lumi = 0.077011023;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/7C084ABA-8B3F-7348-B08E-CE97ACBEB819.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/ECD726DF-71DE-B048-ADF4-99813EDB005D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/61DCD4E0-E481-D943-9FFC-750DE9256F4D.root");
-lumi = 0.093204068;
+    bunches = 2544;
+    lumi = 0.093204068;
 }
   if(run ==325159){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/77EA9548-BD5C-3D49-A15C-D161A0AC3C81.root");
@@ -21050,14 +21329,16 @@ lumi = 0.093204068;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/4486BD9F-B7D1-F448-8B2A-FCC7766A743D.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/C0FA3BC3-E29C-F347-9449-005B072D58F9.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/6B499B9D-5AD1-A34A-BEA4-EAD1E80E414B.root");
-lumi = 0.06664564;
+    bunches = 2544;
+    lumi = 0.06664564;
 }
   if(run ==325168){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/6680FA98-251A-A740-8586-F84506C67C03.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/4A9E9534-EA23-9441-A5A9-C145E9B7FC63.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/C2B3584E-2E77-E240-AF12-D571DCB88EA7.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/3ECA50DF-D275-1B40-8700-65C9BC121233.root");
-lumi = 0.004612603;
+    bunches = 2544;
+    lumi = 0.004612603;
 }
   if(run ==325169){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/E859A2FE-E3FF-C441-B9E6-75928362656D.root");
@@ -21065,7 +21346,8 @@ lumi = 0.004612603;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/8B080706-63EB-2D47-A45E-B3CC86477F3C.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/9EF2765D-EED2-8B43-9D40-37E3E93FE361.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/6680FA98-251A-A740-8586-F84506C67C03.root");
-lumi = 0.005998654;
+    bunches = 2544;
+    lumi = 0.005998654;
 }
   if(run ==325170){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/2414FFA7-40B3-6643-B2AB-26607AF307D9.root");
@@ -21205,7 +21487,8 @@ lumi = 0.005998654;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/D8B0C3E7-3F1F-BF46-9F24-FE848558933F.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/1BFE02CD-AC62-F343-AAAE-AD8D519BCF88.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/ABBBA013-4E4A-3E4F-A607-4AE3FCF63D54.root");
-lumi = 0.283222893;
+    bunches = 2544;
+    lumi = 0.283222893;
 }
   if(run ==325172){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/C9DE9F0A-BA12-384A-9B07-7FB2001466AD.root");
@@ -21250,12 +21533,14 @@ lumi = 0.283222893;
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/004EDA8F-347A-6447-81E9-FC5A5DDD6D7A.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/CDC98B9D-252F-9D4A-91C5-B2465A2845FA.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/5F31BB96-6148-EE4D-BFA3-D242054F905E.root");
-lumi = 0.073439024;
+    bunches = 2544;
+    lumi = 0.073439024;
 }
   if(run ==325175){
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/EBEF52B4-846C-CA4A-AD74-C78663BCA999.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/6680FA98-251A-A740-8586-F84506C67C03.root");
     inputFiles_.push_back("root://cms-xrd-global.cern.ch//store/data/Run2018D/ZeroBias/AOD/12Nov2019_UL2018_rsb-v1/120001/59E9F5C4-95F0-5D48-A10B-0A0946CAD9D1.root");
-lumi = 0.001598307;
+    bunches = 2544;
+    lumi = 0.001598307;
 }
 }

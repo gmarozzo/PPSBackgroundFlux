@@ -20,7 +20,9 @@
 #include "FWCore/Common/interface/TriggerNames.h"
 #include "HLTrigger/HLTcore/interface/HLTConfigProvider.h"
 #include "HLTrigger/HLTcore/interface/HLTPrescaleProvider.h"
-
+#include "FWCore/Framework/interface/ESHandle.h"
+#include "CondFormats/RunInfo/interface/FillInfo.h"
+#include "CondFormats/DataRecord/interface/FillInfoRcd.h"
 
 #include "DataFormats/CTPPSDetId/interface/CTPPSDetId.h"
 #include "DataFormats/CTPPSDetId/interface/CTPPSPixelDetId.h"
@@ -71,6 +73,10 @@ int main(int argc, char* argv[]) {
   //outputname.append(std::to_string(run_));
   outputname.append(".root");
   parser.stringValue("outputFile") = outputname.c_str();
+
+  edm::ESHandle<FillInfo> fillRcd;
+  const edm::EventSetup& iSetup;
+  std::string FillingScheme;
 
   // Set lumisection range
   int MinLumiSection1 = 1;
@@ -134,10 +140,10 @@ int main(int argc, char* argv[]) {
   */
   TH1F *ls = dir.make<TH1F>("ls","ls",2000,0,2000);
   
-  TH1F *th1fin45210 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
-  TH1F *th1fin45220 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
-  TH1F *th1fin56210 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
-  TH1F *th1fin56220 = dir.make<TH1F>("th1fin","th1fin",11001,314999.5,326000.5);
+  TH1F *th1fin45210 = dir.make<TH1F>("th1fin45210","th1fin",11001,314999.5,326000.5);
+  TH1F *th1fin45220 = dir.make<TH1F>("th1fin45220","th1fin",11001,314999.5,326000.5);
+  TH1F *th1fin56210 = dir.make<TH1F>("th1fin56210","th1fin",11001,314999.5,326000.5);
+  TH1F *th1fin56220 = dir.make<TH1F>("th1fin56220","th1fin",11001,314999.5,326000.5);
 
   // loop the events
   int ievt = 0;
@@ -190,6 +196,12 @@ int main(int argc, char* argv[]) {
           continue;
 
 	ls->Fill(lumiblock_);
+
+	edm::eventsetup::EventSetupRecordKey recordKey(edm::eventsetup::EventSetupRecordKey::TypeTag::findType("FillInfoRcd"));
+        //iSetup.get<FillInfoRcd>().get(fillRcd);
+        fill = fillRcd.product();
+        FillingScheme = fill->injectionScheme();
+        cout<<FillingScheme<<endl;
 
 	edm::Handle<std::vector<CTPPSLocalTrackLite> > ppstracks;
         // Use this for running on standard Physics AOD                                                                                                                 
@@ -364,7 +376,7 @@ int main(int argc, char* argv[]) {
   th1fin56220->SetBinContent(run_-314999,Mean56220*totalscale);
   th1fin56220->SetBinError(run_-314999,Mean56220err*totalscale);
 
-  cout<<"bin: "<<run_-31499<<endl;
+  cout<<"bin: "<<run_-314999<<endl;
   cout<<"Mean: "<<Mean45210<<endl;
   cout<<"err: "<<Mean45210err<<endl;
   cout<<"Content: "<<Mean45210*totalscale<<endl;
